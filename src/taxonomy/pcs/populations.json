@@ -1,0 +1,1370 @@
+[
+  {
+    "code": "PA000000",
+    "label": "Age groups",
+    "parent": null,
+    "definition": "People categorized by age. The age ranges provided are the ones considered by Candid to be fairly common and sensible ranges associated with each term, but other organizations associate quite different ranges with some of the terms.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PA010000",
+    "label": "Children and youth",
+    "parent": "PA000000",
+    "definition": "Young people from birth to 18 years of age.",
+    "level": 2,
+    "formerCode": "A2"
+  },
+  {
+    "code": "PA010100",
+    "label": "Infants and toddlers",
+    "parent": "PA010000",
+    "definition": "Young people from birth to 2 years of age.",
+    "level": 3,
+    "formerCode": "A1"
+  },
+  {
+    "code": "PA010200",
+    "label": "Children",
+    "parent": "PA010000",
+    "definition": "Young people from 3 to 9 years of age.",
+    "level": 3,
+    "formerCode": "A3"
+  },
+  {
+    "code": "PA010300",
+    "label": "Preteens",
+    "parent": "PA010000",
+    "definition": "Young people from 10 to 12 years of age.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PA010400",
+    "label": "Adolescents",
+    "parent": "PA010000",
+    "definition": "Young people from 13 to 18 years of age.",
+    "level": 3,
+    "formerCode": "A4"
+  },
+  {
+    "code": "PA020000",
+    "label": "Adults",
+    "parent": "PA000000",
+    "definition": "People 19 years of age and older.",
+    "level": 2,
+    "formerCode": "A5"
+  },
+  {
+    "code": "PA020100",
+    "label": "Young adults",
+    "parent": "PA020000",
+    "definition": "Young people from 19 to 25 years of age.",
+    "level": 3,
+    "formerCode": "A7"
+  },
+  {
+    "code": "PA020300",
+    "label": "Older adults",
+    "parent": "PA020000",
+    "definition": "People 65 years of age and older.",
+    "level": 3,
+    "formerCode": "A6"
+  },
+  {
+    "code": "PC000000",
+    "label": "Gender identity, sexual orientation, and sex\r\ncharacteristics",
+    "parent": null,
+    "definition": "People grouped by gender identity, sexual identity and specific sex characteristics.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PC010000",
+    "label": "LGBTQIA+ people",
+    "parent": "PC000000",
+    "definition": "People who identify as lesbian, gay, bisexual, transgender, queer, questioning, intersex, asexual, pansexual or two-spirit, as well as other individuals with related identities. This umbrella term groups all individuals who do not identify as heterosexual or cisgender.",
+    "level": 2,
+    "formerCode": "Q0"
+  },
+  {
+    "code": "PC010100",
+    "label": "Lesbians",
+    "parent": "PC010000",
+    "definition": "Women whose sexual orientation is to other women; homosexual women; women with sexual or romantic desire focused on other women.",
+    "level": 3,
+    "formerCode": "Q1"
+  },
+  {
+    "code": "PC010200",
+    "label": "Gay men",
+    "parent": "PC010000",
+    "definition": "Men whose sexual orientation is to other men; men with sexual or romantic desire focused on other men.",
+    "level": 3,
+    "formerCode": "Q2"
+  },
+  {
+    "code": "PC010300",
+    "label": "Bisexuals",
+    "parent": "PC010000",
+    "definition": "People who are sexually attracted to both men and women; of, relating to, or characterized by a tendency to direct sexual desire toward both sexes.",
+    "level": 3,
+    "formerCode": "Q3"
+  },
+  {
+    "code": "PC010400",
+    "label": "Transgender people",
+    "parent": "PC010000",
+    "definition": "People who identify with or express a gender identity that differs from the one which corresponds to their sex assigned at birth. Transgender persons may or may not seek gender affirming medical treatment and still identify as transgender.",
+    "level": 3,
+    "formerCode": "Q4"
+  },
+  {
+    "code": "PC010500",
+    "label": "Intersex people",
+    "parent": "PC010000",
+    "definition": "Intersex people have a variation or variations in sex characteristics including chromosomes, gonads, or genitals that do not allow an individual to be distinctly identified as male or female. Intersex is a general term used for a variety of conditions in which a person is born with a reproductive or sexual anatomy that does not seem to fit the typical definitions of female or male such as a girl with a large clitoris or no visible vagina or a boy with an extremely small penis or no testicles.",
+    "level": 3,
+    "formerCode": "Q5"
+  },
+  {
+    "code": "PC010600",
+    "label": "Gender nonbinary/Genderqueer/Gender non-conforming",
+    "parent": "PC010000",
+    "definition": "People whose identities do not conform to strict categories of men or women. These people may identify as both genders, may identify as a third gender, may not identify with a gender, or may have a fluctuating gender identity. Gender non-binary or non-conforming people may also identify as trans or may seek gender-affirming medical care.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PC020000",
+    "label": "Heterosexuals",
+    "parent": "PC000000",
+    "definition": "People who have romantic or sexual attraction exclusively to people of the opposite gender.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PC040000",
+    "label": "Women and girls",
+    "parent": "PC000000",
+    "definition": "Women and girls; those usually identified as female, or who self-identify as women.",
+    "level": 2,
+    "formerCode": "F0"
+  },
+  {
+    "code": "PC040100",
+    "label": "Girls",
+    "parent": "PC040000",
+    "definition": "Girls from birth to 18 years of age.",
+    "level": 3,
+    "formerCode": "F2"
+  },
+  {
+    "code": "PC040101",
+    "label": "Infants and toddler girls",
+    "parent": "PC040100",
+    "definition": "Girls from birth to 2 years of age.",
+    "level": 4,
+    "formerCode": "F1"
+  },
+  {
+    "code": "PC040102",
+    "label": "Young girls",
+    "parent": "PC040100",
+    "definition": "Girls from 3 to 9 years of age.",
+    "level": 4,
+    "formerCode": "F3"
+  },
+  {
+    "code": "PC040103",
+    "label": "Preteen girls",
+    "parent": "PC040100",
+    "definition": "Girls from 10 to 12 years of age.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PC040104",
+    "label": "Adolescent girls",
+    "parent": "PC040100",
+    "definition": "Girls from 13 to 18 years of age.",
+    "level": 4,
+    "formerCode": "F3"
+  },
+  {
+    "code": "PC040200",
+    "label": "Women",
+    "parent": "PC040000",
+    "definition": "Women 19 years old and older.",
+    "level": 3,
+    "formerCode": "F5"
+  },
+  {
+    "code": "PC040201",
+    "label": "Young women",
+    "parent": "PC040200",
+    "definition": "Women from 19-25 years of age.",
+    "level": 4,
+    "formerCode": "F7"
+  },
+  {
+    "code": "PC040203",
+    "label": "Older women",
+    "parent": "PC040200",
+    "definition": "Women 65 years old and older.",
+    "level": 4,
+    "formerCode": "F6"
+  },
+  {
+    "code": "PC050000",
+    "label": "Men and boys",
+    "parent": "PC000000",
+    "definition": "Men and boys; those usually identified as male, or who self-identify as men.",
+    "level": 2,
+    "formerCode": "M0"
+  },
+  {
+    "code": "PC050100",
+    "label": "Boys",
+    "parent": "PC050000",
+    "definition": "Boys from birth to 18 years of age.",
+    "level": 3,
+    "formerCode": "M2"
+  },
+  {
+    "code": "PC050101",
+    "label": "Infants and toddler boys",
+    "parent": "PC050100",
+    "definition": "Boys from birth to 2 years of age.",
+    "level": 4,
+    "formerCode": "M1"
+  },
+  {
+    "code": "PC050102",
+    "label": "Young boys",
+    "parent": "PC050100",
+    "definition": "Boys from 3 to 9 years of age.",
+    "level": 4,
+    "formerCode": "M3"
+  },
+  {
+    "code": "PC050103",
+    "label": "Preteen boys",
+    "parent": "PC050100",
+    "definition": "Boys from 10 to 12 years of age.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PC050104",
+    "label": "Adolescent boys",
+    "parent": "PC050100",
+    "definition": "Boys from 13 to 18 years of age.",
+    "level": 4,
+    "formerCode": "M4"
+  },
+  {
+    "code": "PC050200",
+    "label": "Men",
+    "parent": "PC050000",
+    "definition": "Men 19 years of age and older.",
+    "level": 3,
+    "formerCode": "M5"
+  },
+  {
+    "code": "PC050201",
+    "label": "Young men",
+    "parent": "PC050200",
+    "definition": "Men from 19-25 years of age.",
+    "level": 4,
+    "formerCode": "M7"
+  },
+  {
+    "code": "PC050203",
+    "label": "Older men",
+    "parent": "PC050200",
+    "definition": "Men 65 years of age and older.",
+    "level": 4,
+    "formerCode": "M6"
+  },
+  {
+    "code": "PD000000",
+    "label": "Family relationships",
+    "parent": null,
+    "definition": "The roles and relationships between members of birth, adoptive, transitional, and chosen families.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD010000",
+    "label": "Families",
+    "parent": "PD000000",
+    "definition": "The roles and relationships between members of birth, adoptive, transitional, and chosen families. Groups of people connected by domestic ties, co-residency, or consanguinity that often include parents and non-adult children.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD010100",
+    "label": "Families of origin",
+    "parent": "PD010000",
+    "definition": "Families of origin are families that people grew up in and include that person's parents and siblings, called a nuclear family. They may also include grandparents, other relatives, or divorced parents who lived with that person during part of his or her childhood.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD010200",
+    "label": "Families of choice",
+    "parent": "PD010000",
+    "definition": "Families of choice are groups associated with individual adults (many of whom are LGBT(Q)) who have chosen these people to fill familial or family-like roles. They may contain blood-related or legally-related members of a family, but most often contain friends, colleagues and other close associates.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020000",
+    "label": "Parents",
+    "parent": "PD000000",
+    "definition": "People with non-adult children.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020100",
+    "label": "Foster and adoptive parents",
+    "parent": "PD020000",
+    "definition": "People who have adopted and are caring for non-adult children; and people who are foster caregivers to non-adult children.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020200",
+    "label": "Adolescent parents",
+    "parent": "PD020000",
+    "definition": "Young people aged 13-18 who have children.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020300",
+    "label": "Grandparents",
+    "parent": "PD020000",
+    "definition": "People with non-adult grandchildren.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020400",
+    "label": "Single parents",
+    "parent": "PD020000",
+    "definition": "People without a spouse or partner but with non-adult children.",
+    "level": 3,
+    "formerCode": "N5"
+  },
+  {
+    "code": "PD020500",
+    "label": "Stepparents",
+    "parent": "PD020000",
+    "definition": "People who act as parents for non-adult children of their spouse but who are not their own natural children.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020600",
+    "label": "Mothers",
+    "parent": "PD020000",
+    "definition": "Parents who identify as women.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD020700",
+    "label": "Fathers",
+    "parent": "PD020000",
+    "definition": "Parents who identify as men.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD030000",
+    "label": "Widows and widowers",
+    "parent": "PD000000",
+    "definition": "Wives or husbands whose spouse has died.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD040000",
+    "label": "Non-adult children",
+    "parent": "PD000000",
+    "definition": "Offspring of parents who may or may not be living, present, or acting as guardians. In addition, these offspring have not yet become adults themselves. This term is used in place of \"Children and youth\" when referring to a child's family status.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD040100",
+    "label": "Orphans",
+    "parent": "PD040000",
+    "definition": "Non-adult children both of whose parents have died or are permanently absent.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD040200",
+    "label": "Children of LGBTQ parents",
+    "parent": "PD040000",
+    "definition": "This is usually members of the family unit 0 to 18 years of age who are currently being raised by same-sex or LGBT parents. This term could in some circumstances also refer to adult children who were raised by LGBT(Q) parents.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD040300",
+    "label": "Foster and adoptive children",
+    "parent": "PD040000",
+    "definition": "Non-adult children who have been adopted or are cared for by foster parents.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD040400",
+    "label": "Youth aging out of foster care",
+    "parent": "PD040000",
+    "definition": "Youth who are about to age out of the foster care system. This term is used in place of \"Adolescents\" when referring to the upcoming change in family status for youth.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PD050000",
+    "label": "Caregivers",
+    "parent": "PD000000",
+    "definition": "People who look after a person who is ill, frail, disabled, or otherwise unable to look after themselves.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE000000",
+    "label": "Ethnic and racial groups",
+    "parent": null,
+    "definition": "Groups of people who identify with each other based on common ties of ancestry, homeland, or culture, or by certain physical traits. Use this term for People of color (that is, a variety of groups that exclude Whites/Caucasians).",
+    "level": 1,
+    "formerCode": "E0"
+  },
+  {
+    "code": "PE010000",
+    "label": "Middle Eastern/North African people",
+    "parent": "PE000000",
+    "definition": "People with ancestral relations to indigenous inhabitants of Western Asia (not including the Caucasus) and North Africa.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE010100",
+    "label": "Arab people",
+    "parent": "PE010000",
+    "definition": "People with ancestral relations to indigenous inhabitants of the Arabian peninsula or Syrian desert, and those who identify strongly with Arab culture through language, tribal custom, or religion.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE020000",
+    "label": "Asian people",
+    "parent": "PE000000",
+    "definition": "People having origins in any of the original peoples of the Far East, Southeast Asia, Central Asia, or the Indian subcontinent and who may or may not identify with the cultural traditions and practices of that region.",
+    "level": 2,
+    "formerCode": "E1"
+  },
+  {
+    "code": "PE020100",
+    "label": "South Asian people",
+    "parent": "PE020000",
+    "definition": "People having origins in any of the original peoples of the Indian subcontinent and who identify with the cultural traditions and practices of that region.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE020200",
+    "label": "Southeast Asian people",
+    "parent": "PE020000",
+    "definition": "People having origins in any of the original peoples of Southeast Asia and who identify with the cultural traditions and practices of that region.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE020300",
+    "label": "East Asian people",
+    "parent": "PE020000",
+    "definition": "People having origins in any of the original peoples of the Far East and who identify with the cultural traditons and practices of that region.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE020400",
+    "label": "Central Asian people",
+    "parent": "PE020000",
+    "definition": "People having origins in any of the original peoples of Central Asia and who identify with the cultural traditions and practices of that region.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE030000",
+    "label": "Black/African people",
+    "parent": "PE000000",
+    "definition": "People having origins in any of the Black racial groups of Africa.",
+    "level": 2,
+    "formerCode": "E2"
+  },
+  {
+    "code": "PE040000",
+    "label": "White/Caucasian/European people",
+    "parent": "PE000000",
+    "definition": "People having origins in any of the original peoples of Europe.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE050000",
+    "label": "Hispanic/Latino/Latina/Latinx people",
+    "parent": "PE000000",
+    "definition": "People having ancestral origins in Europe (especially Iberia), Africa, and Latin America who share elements of cultural heritage, language (often Spanish or Portuguese), national identity, and lineage; and who represent a variety of racial and ethnic identities.",
+    "level": 2,
+    "formerCode": "E3"
+  },
+  {
+    "code": "PE050100",
+    "label": "Central American people",
+    "parent": "PE050000",
+    "definition": "People having ancestral origins in Europe (especially Iberia), Africa, and Latin America; having more proximate backgrounds in Central America; who share elements of cultural heritage, language, national identity, and lineage; and who represent a variety of racial and ethnic identities.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE050200",
+    "label": "South American people",
+    "parent": "PE050000",
+    "definition": "People having ancestral origins in Europe (especially Iberia), Africa, and Latin America; having more proximate backgrounds in South America; who share elements of cultural heritage, language (often Spanish or Portuguese), national identity, and lineage; and who represent a variety of racial and ethnic identities.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE050300",
+    "label": "Caribbean people",
+    "parent": "PE050000",
+    "definition": "People having ancestral origins in Europe (especially Iberia), Africa, and Latin America; having more proximate backgrounds in the islands of the Caribbean; who share elements of cultural heritage, language, national identity, and lineage; and who represent a variety of racial and ethnic identities.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE060000",
+    "label": "Indigenous peoples",
+    "parent": "PE000000",
+    "definition": "Peoples and nations that have a historical continuity with pre-invasion and pre-colonial societies that developed on their territories, and consider themselves distinct from other sectors of the societies now prevailing in those territories, or parts of them.",
+    "level": 2,
+    "formerCode": "E5"
+  },
+  {
+    "code": "PE060100",
+    "label": "Alaska Natives",
+    "parent": "PE060000",
+    "definition": "People having origins in any of the original peoples of Alaska and who maintains tribal affiliation or community attachment.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE060200",
+    "label": "First Nations, Inuit, and Metis",
+    "parent": "PE060000",
+    "definition": "People having origins in any of the original peoples of what is now called Canada.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE060300",
+    "label": "American Indians/Native Americans",
+    "parent": "PE060000",
+    "definition": "People having origins in any of the original peoples of the United States (not including Alaska or Hawaii), and who maintain tribal affiliation or community attachment.",
+    "level": 3,
+    "formerCode": "E4"
+  },
+  {
+    "code": "PE060400",
+    "label": "Native Hawaiians",
+    "parent": "PE060000",
+    "definition": "People having origins in any of the original peoples of Hawaii.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE060500",
+    "label": "Pacific Islanders",
+    "parent": "PE060000",
+    "definition": "People having origins in any of the original peoples of Guam, Samoa, or other Pacific Islands.",
+    "level": 3,
+    "formerCode": "E1"
+  },
+  {
+    "code": "PE060600",
+    "label": "Australian Aboriginal and Torres Strait Islander peoples",
+    "parent": "PE060000",
+    "definition": "People of Aboriginal or Torres Strait Islander descent who identify as Aboriginal or Torres Strait Islander and are accepted as such by the community in which they live.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PE070000",
+    "label": "Multi-racial/Multi-ethnic people",
+    "parent": "PE000000",
+    "definition": "People having more than one strong racial, ethnic, or cultural identity or ancestry.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF000000",
+    "label": "Religious groups",
+    "parent": null,
+    "definition": "People who are adherents of, belong to, or worship in an established church or religious tradition.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010000",
+    "label": "Christians",
+    "parent": "PF000000",
+    "definition": "People who belong to or worship in a Christian church.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010100",
+    "label": "Protestants",
+    "parent": "PF010000",
+    "definition": "People who belong to or worship in a mainline Protestant church.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010101",
+    "label": "Baptists",
+    "parent": "PF010100",
+    "definition": "People who belong to or worship in a Baptist church.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010102",
+    "label": "Episcopalians and Anglicans",
+    "parent": "PF010100",
+    "definition": "People who belong to or worship in an Episcopalian  or Anglican church.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010103",
+    "label": "Lutherans",
+    "parent": "PF010100",
+    "definition": "People who belong to or worship in a Lutheran church.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010104",
+    "label": "Methodists",
+    "parent": "PF010100",
+    "definition": "People who belong to or worship in a Methodist church.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010105",
+    "label": "Presbyterians",
+    "parent": "PF010100",
+    "definition": "People who belong to or worship in a Presbyterian church.",
+    "level": 4,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010200",
+    "label": "Catholics",
+    "parent": "PF010000",
+    "definition": "People who belong to or worship in a Roman or Eastern Catholic church.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010300",
+    "label": "Orthodox Christians",
+    "parent": "PF010000",
+    "definition": "People who belong to or worship in an Orthodox church.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010400",
+    "label": "Mormons",
+    "parent": "PF010000",
+    "definition": "People who belong to the Church of Jesus Christ of Latter-day Saints.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010500",
+    "label": "Evangelicals",
+    "parent": "PF010000",
+    "definition": "People who belong to or worship in an Evangelical Christian church.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF010600",
+    "label": "Christian Scientists",
+    "parent": "PF010000",
+    "definition": "People who belong to or worship in a Church of Christ, Scientist.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF020000",
+    "label": "Jewish people",
+    "parent": "PF000000",
+    "definition": "People who adhere to Judaism, or whose ancestors adhered to Judaism and who embrace a Jewish cultural identity.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF020100",
+    "label": "Conservative Jews",
+    "parent": "PF020000",
+    "definition": "People who adhere to Conservative Judaism.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF020200",
+    "label": "Orthodox Jews",
+    "parent": "PF020000",
+    "definition": "People who adhere to Orthodox Judaism.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF020300",
+    "label": "Reconstructionist Jews",
+    "parent": "PF020000",
+    "definition": "People who adhere to Reconstructionist Judaism.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF020400",
+    "label": "Reform Jews",
+    "parent": "PF020000",
+    "definition": "People who adhere to Reform Judaism.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF030000",
+    "label": "Muslims",
+    "parent": "PF000000",
+    "definition": "Adherents of Islam.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF030100",
+    "label": "Sunnis",
+    "parent": "PF030000",
+    "definition": "Adherents of the Sunni branch of Islam.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF030200",
+    "label": "Shi'a",
+    "parent": "PF030000",
+    "definition": "Adherents of the Shi'a branch of Islam.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF030300",
+    "label": "Sufists",
+    "parent": "PF030000",
+    "definition": "Adherents of Sufism, a mystical tradition of Islam.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF040000",
+    "label": "Hindus",
+    "parent": "PF000000",
+    "definition": "Adherents of the religious traditions or set of religious beliefs of Hinduism.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF050000",
+    "label": "Sikhs",
+    "parent": "PF000000",
+    "definition": "Adherents of Sikhism.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF060000",
+    "label": "Buddhists",
+    "parent": "PF000000",
+    "definition": "Adherents of Buddhism.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF070000",
+    "label": "Confucists",
+    "parent": "PF000000",
+    "definition": "Adherents of Confucianism.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF080000",
+    "label": "Shintos",
+    "parent": "PF000000",
+    "definition": "Adherents of Shinto.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF090000",
+    "label": "Baha'is",
+    "parent": "PF000000",
+    "definition": "Adherents of Baha'i.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF100000",
+    "label": "Interfaith groups",
+    "parent": "PF000000",
+    "definition": "Groups of people who represent a variety of beliefs, faiths, and religions and who support and promote positive, cooperative interactions and dialogue. This cooperation can be in the service of greater understanding and a stronger bond between the groups, or to pursue a concrete and cooperative purpose of any other sort.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF110000",
+    "label": "Secular groups",
+    "parent": "PF000000",
+    "definition": "People who do not belong to a religious community, who abstain from religious faith on philosophical grounds, or who advocate for the separation of religion from other elements of public life. Use for atheists, agnostics, and secularists.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PF120000",
+    "label": "Tribal and indigenous religious groups",
+    "parent": "PF000000",
+    "definition": "Adherents of religions that are specific to and characteristic of tribal and indigenous cultures.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG000000",
+    "label": "Social and economic status",
+    "parent": null,
+    "definition": "People whose economic condition, social position, or legal status may present a disadvantage or difficulty in their life circumstances. Included are such groups as poor people, victims, migrants, incarcerated people, and others.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG010000",
+    "label": "Immigrants and migrants",
+    "parent": "PG000000",
+    "definition": "People who have left an area to which they are native to cross a border to another region or country.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG010100",
+    "label": "Immigrants",
+    "parent": "PG010000",
+    "definition": "People who have left their country of origin with the intention to settle permanently in the new country to which they have come. These people choose to make this change for economic or social benefits, greater freedom and protection of rights, or personal or family reasons.",
+    "level": 3,
+    "formerCode": "O2"
+  },
+  {
+    "code": "PG010200",
+    "label": "Migrant workers",
+    "parent": "PG010000",
+    "definition": "People who move from area to area, often on a cyclical schedule, in pursuit of employment.",
+    "level": 3,
+    "formerCode": "P2"
+  },
+  {
+    "code": "PG010300",
+    "label": "Cross-border families",
+    "parent": "PG010000",
+    "definition": "People from families whose members are separated by national borders, especially borders that are contested or present significant barriers to free movement and resettlement.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG010400",
+    "label": "Refugees and displaced people",
+    "parent": "PG010000",
+    "definition": "People who are outside their country of origin or residence and are unable or unwilling to return because of persecution, war, discrimination, disaster, or threat of violence.",
+    "level": 3,
+    "formerCode": "O2"
+  },
+  {
+    "code": "PG010500",
+    "label": "Asylum seekers",
+    "parent": "PG010000",
+    "definition": "People who have been forced from their country of origin by intimidation or persecution and are seeking the official protection of asylum in a country other than their own once they have arrived in that country.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG010600",
+    "label": "Internally displaced people",
+    "parent": "PG010000",
+    "definition": "People who have fled their place of origin or habitual residence because of persecution, war, discrimination, disaster, or threat of violence but have not crossed an internationally recognized state border. These IDP's are often considered to be only temporarily displaced and have an implied right of return.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG010700",
+    "label": "Undocumented immigrants",
+    "parent": "PG010000",
+    "definition": "People from one country that have entered another country without permission or who have stayed longer than the period of time allowed them by the host country; may or may not include the children of these people born in the host country.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG020000",
+    "label": "Nomadic people",
+    "parent": "PG000000",
+    "definition": "Communities of people who move from place to place as an efficient survival strategy to exploit scarce resources. These peoples can be pastoralists who move with their herds, hunter-gatherers, or itinerant populations in more populated areas who practice crafts or trades. This status may not imply or be perceived as a disadvantage.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG030000",
+    "label": "Economically disadvantaged people",
+    "parent": "PG000000",
+    "definition": "People who lack the economic resources to adequately fulfill their material wants and needs; people who are deprived of choices, opportunities, or well-being due to a lack of wealth or income; people whose income or the value of whose possessions lies below a level set by a nation or other institution in an instrument meant to measure poverty.",
+    "level": 2,
+    "formerCode": "P0"
+  },
+  {
+    "code": "PG030100",
+    "label": "Homeless people",
+    "parent": "PG030000",
+    "definition": "People without stable, safe and adequate housing. Includes marginally housed people.",
+    "level": 3,
+    "formerCode": "P1"
+  },
+  {
+    "code": "PG030200",
+    "label": "Low-income people",
+    "parent": "PG030000",
+    "definition": "People whose income or economic resources are inadequate to maintain a socially acceptable standard of living, or have fallen markedly below the resources of others in the community. People experiencing relative poverty.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG030300",
+    "label": "People living in extreme poverty",
+    "parent": "PG030000",
+    "definition": "People who lack the resources (sometimes referred to as \"a dollar a day\") to fulfill basic human needs, and whose deprivation strongly affects life-expectancy. People experiencing absolute poverty.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG030400",
+    "label": "Working poor",
+    "parent": "PG030000",
+    "definition": "People who are employed, on either a full-time or part-time basis, but whose income still falls below the official poverty level.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG040000",
+    "label": "Justice-involved people",
+    "parent": "PG000000",
+    "definition": "People who are in the process of or have in the past been detained, imprisoned, or held captive, in custody, under house arrest, or under close arrest. Includes people on probation.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG040100",
+    "label": "Incarcerated people",
+    "parent": "PG040000",
+    "definition": "People who have been convicted of a criminal offense and are in the process of serving time in prison, jail or other correctional facility.",
+    "level": 3,
+    "formerCode": "N2"
+  },
+  {
+    "code": "PG040200",
+    "label": "Formerly incarcerated people",
+    "parent": "PG040000",
+    "definition": "People who have been released from prison, jail or juvenile detention centers. Use for individuals on parole.",
+    "level": 3,
+    "formerCode": "N2"
+  },
+  {
+    "code": "PG040300",
+    "label": "Detainees",
+    "parent": "PG040000",
+    "definition": "Migrants, including asylum-seekers, undocumented persons, refugees, etc., held in custody by a state, a government or the military,  without a warrant or charge while awaiting resolution of status or deportation.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG040400",
+    "label": "Wrongfully incarcerated people",
+    "parent": "PG040000",
+    "definition": "People who have been wrongfully convicted of a criminal offense and subsequently exonerated of all charges.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG060000",
+    "label": "Victims of violence or disasters",
+    "parent": "PG000000",
+    "definition": "People who have suffered loss, harm, injury, or death as a result of crimes, attacks, accidents, extreme circumstances, or other acts and events.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG060100",
+    "label": "Victims of crime and abuse",
+    "parent": "PG060000",
+    "definition": "People who have suffered loss, harm, injury, or death as a result of criminal activity, including abuse.",
+    "level": 3,
+    "formerCode": "N6"
+  },
+  {
+    "code": "PG060200",
+    "label": "Victims of disaster",
+    "parent": "PG060000",
+    "definition": "People who have suffered loss, harm, injury, or death as a result of natural or man-made disasters.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG060300",
+    "label": "Victims of conflict and war",
+    "parent": "PG060000",
+    "definition": "People who have suffered loss, harm, injury, or death as a result of war or other violent conflicts.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG070000",
+    "label": "Out-of-home youth",
+    "parent": "PG000000",
+    "definition": "Young people, usually adolescents, who are living in foster care, in juvenile justice centers, homeless shelters, or on the streets.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG080000",
+    "label": "Out-of-school youth",
+    "parent": "PG000000",
+    "definition": "Young people, usually adolescents, who leave high school before graduation due to circumstances at the school, such as academic, behavioral, or social problems; events and situations outside the school, such as family difficulties or needing to get a job; or personal problems such as alienation, lack of interest, lack of support, etc.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG090000",
+    "label": "People living in rural areas",
+    "parent": "PG000000",
+    "definition": "People who live in rural areas. The definition of rural varies by country, with population size and density often key considerations.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PG100000",
+    "label": "People living in urban areas",
+    "parent": "PG000000",
+    "definition": "People who live in urban areas, typically densely populated and with corresponding infrastructure.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH000000",
+    "label": "Health",
+    "parent": null,
+    "definition": "People with physical or mental conditions that have a significant effect on their health, abilities, life expectancy, or need for care and treatment.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH010000",
+    "label": "People with disabilities",
+    "parent": "PH000000",
+    "definition": "People who have impairments, activity limitations, and/or participation restrictions (according to the WHO). An impairment is a problem in body function or structure; an activity limitation is a difficulty encountered by an individual in executing a task or action; while a participation restriction is a problem experienced by an individual in involvement in life situations. In the U.S. the ADA defines this group as people who have impairments that substantially limit one or more major life activities. Use For: People with unspecified disabilities. For people with multiple disabilities, use multiple specific terms. For people with specific named disabilities that have no specific terms, use People with other disabilities.",
+    "level": 2,
+    "formerCode": "D0"
+  },
+  {
+    "code": "PH010100",
+    "label": "People with physical disabilities",
+    "parent": "PH010000",
+    "definition": "People who have physical impairments that limit life activities such as employment, mobility, and personal care.",
+    "level": 3,
+    "formerCode": "D1"
+  },
+  {
+    "code": "PH010200",
+    "label": "People with vision impairments",
+    "parent": "PH010000",
+    "definition": "People who have visual impairments that limit life activities such as employment, mobility and information access.",
+    "level": 3,
+    "formerCode": "D2"
+  },
+  {
+    "code": "PH010300",
+    "label": "People with hearing impairments",
+    "parent": "PH010000",
+    "definition": "People who have auditory impairments that limit or affect life activities such as employment, communication, or education.",
+    "level": 3,
+    "formerCode": "D3"
+  },
+  {
+    "code": "PH010400",
+    "label": "People with psychosocial disabilities",
+    "parent": "PH010000",
+    "definition": "People who have psychological, emotional, or behavioral disorders that limit life activities such as employment, education, and relationships. Use For: People with mental illness.",
+    "level": 3,
+    "formerCode": "D4"
+  },
+  {
+    "code": "PH010500",
+    "label": "People with intellectual disabilities",
+    "parent": "PH010000",
+    "definition": "People who have mental impairments that limit life activities such as education, employment, and personal care.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH010600",
+    "label": "People with learning disabilities",
+    "parent": "PH010000",
+    "definition": "People with cognitive, perceptual, or other impairments that limit their ability to learn through conventional methods, in formal educational settings or other learning environments.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH010700",
+    "label": "People with other disabilities",
+    "parent": "PH010000",
+    "definition": "People with specific, named disabilities or impairments not covered by other terms in this section.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH020000",
+    "label": "People with diseases and illnesses",
+    "parent": "PH000000",
+    "definition": "People who have contracted, are suffering from, or are receiving treatment for a specific serious medical condition such as cancer, malaria, heart disease, celiac disease, etc.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH020100",
+    "label": "People living with HIV or AIDS",
+    "parent": "PH020000",
+    "definition": "People who are HIV positive. Use also for people whose HIV infection has progressed to AIDS.",
+    "level": 3,
+    "formerCode": "N4"
+  },
+  {
+    "code": "PH020200",
+    "label": "Chronically ill people",
+    "parent": "PH020000",
+    "definition": "People with long-term medical conditions that manifest sporadically, continuously, or progressively. These conditions often require special management, and these people often must make difficult or severe changes in lifestyle or behavior.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PH020300",
+    "label": "Terminally ill people",
+    "parent": "PH020000",
+    "definition": "People with advanced stage diseases that cannot be cured or adequately treated and are reasonably sure to result in imminent or early death.",
+    "level": 3,
+    "formerCode": "N7"
+  },
+  {
+    "code": "PH030000",
+    "label": "People with substance use disorder",
+    "parent": "PH000000",
+    "definition": "People who are addicted to, have a dependence on, or who use in a harmful manner substances such as illegal drugs, legal pharmaceuticals, or alcohol. Use For: People in recovery.",
+    "level": 2,
+    "formerCode": "N3"
+  },
+  {
+    "code": "PH040000",
+    "label": "Pregnant people",
+    "parent": "PH000000",
+    "definition": "Any person who is currently pregnant.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ000000",
+    "label": "Work status and occupations",
+    "parent": null,
+    "definition": "Groups of people with similar professions, careers, or vocations; or who share an employment status (as unemployed or retired).",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ010000",
+    "label": "Domestic workers",
+    "parent": "PJ000000",
+    "definition": "People who work in the homes of their employers providing services such as cooking, cleaning, gardening, childcare, home and property maintenance, etc.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ020000",
+    "label": "Unemployed people",
+    "parent": "PJ000000",
+    "definition": "People without work or other source of income or support, and usually who are actively seeking work.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ030000",
+    "label": "Self-employed people",
+    "parent": "PJ000000",
+    "definition": "People who work for themselves as independent contractors, craftspeople, artisans, artists, or sole proprietors of a small business, and not as an employee of another person or organization.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ040000",
+    "label": "Retired people",
+    "parent": "PJ000000",
+    "definition": "People who have left their work or career, usually later in life, to pursue other interests such as leisure, domestic activity, volunteer work, creative activity, caretaking, and other activities that are not intended to provide economic support.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ050000",
+    "label": "Academics",
+    "parent": "PJ000000",
+    "definition": "People who are engaged in formal study and the pursuit of education. Candid uses this term chiefly in conjunction with college, university, and graduate education levels and institutions.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ050100",
+    "label": "Students",
+    "parent": "PJ050000",
+    "definition": "People, usually young people, who are engaged in full-time or part-time formal study at an educational institution.",
+    "level": 3,
+    "formerCode": null
+  },
+  {
+    "code": "PJ050200",
+    "label": "Teachers",
+    "parent": "PJ050000",
+    "definition": "People who are trained and often certified to teach students at schools, colleges, universities and other educational institutions and for other educational programs. Use For: Educators; School-teachers; Professors; Instructors.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ050300",
+    "label": "Researchers",
+    "parent": "PJ050000",
+    "definition": "People who engage in diligent and systematic inquiries or investigations into a subject, especially to discover or verify information, facts, theories, applications, etc. or to advance knowledge in an area of interest, including academic, scientific, geographic, legal, or data investigations.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ060000",
+    "label": "Military personnel",
+    "parent": "PJ000000",
+    "definition": "People who serve in their nation's armed forces, including active duty personnel, reservists and those in training.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ070000",
+    "label": "Veterans",
+    "parent": "PJ000000",
+    "definition": "People who have retired from or left active duty in their nation's armed forces; or those who have entered a new life in peacetime after active participation in a war or conflict.",
+    "level": 2,
+    "formerCode": "N1"
+  },
+  {
+    "code": "PJ080000",
+    "label": "Farmers",
+    "parent": "PJ000000",
+    "definition": "People who raise food for consumption as their primary economic activity; includes truck gardeners, ranchers, pastoralists, and subsistence farmers.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ090000",
+    "label": "Emergency responders",
+    "parent": "PJ000000",
+    "definition": "Uniformed personnel who are a first line of defense and response in emergencies like crimes, accidents, and disasters, such as police, firefighters, EMTs, and others.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ100000",
+    "label": "Artists and performers",
+    "parent": "PJ000000",
+    "definition": "People who pursue creative careers in arts, crafts, performing arts, writing, media, etc.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ110000",
+    "label": "Sex workers",
+    "parent": "PJ000000",
+    "definition": "People who work in the sex industry, which involves the exchange of money or goods for sexual services, forced or voluntary. Sex workers may be female, male or transgender adults; be young people or children; work either regularly or occasionally; be socially and/or disadvantaged or not; and may or may not identify themselves as engaged in commercial sex work. The work may be conducted in formally organized settings such as brothels, nightclubs and massage parlors; or informally by the street-based or self-employed; and may be regulated, controlled, tolerated or prohibited. Usually used in reference to providers of services, as opposed to management and staff.",
+    "level": 2,
+    "formerCode": "N8"
+  },
+  {
+    "code": "PJ120000",
+    "label": "Activists",
+    "parent": "PJ000000",
+    "definition": "People who work actively and vigorously in support of a specific cause or around a specific issue, usually outside traditional political or economic structures and institutions, and often against them or to reform them.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ130000",
+    "label": "Farm workers",
+    "parent": "PJ000000",
+    "definition": "People employed for labor in agriculture, often on a seasonal basis. For people who own their farm, use Farmers. See also: Migrant workers.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PJ140000",
+    "label": "Journalists",
+    "parent": "PJ000000",
+    "definition": "People who gather, prepare, edit or present news and information for dissemination via print, electronic or digital media.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PB000000",
+    "label": "General population",
+    "parent": null,
+    "definition": "Focusing on communities broadly within a geographic area. Not disaggregated by age, gender, race, ethnicity, socio-economic status, or other demographic categories.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "PZ000000",
+    "label": "Other population",
+    "parent": null,
+    "definition": "Focusing on a specific population group that is not captured elsewhere in the taxonomy and does not fit well with other categories.",
+    "level": 1,
+    "formerCode": "NEW"
+  }
+]

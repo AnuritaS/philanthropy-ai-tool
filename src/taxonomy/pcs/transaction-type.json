@@ -1,0 +1,466 @@
+[
+  {
+    "code": "TA000000",
+    "label": "Cash grants",
+    "parent": null,
+    "definition": "Direct monetary contributions of cash or cash equivalents. These may be paid in a lump sum, paid in the same year as authorized, or paid over a set number of months or years.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TA010000",
+    "label": "Block grants",
+    "parent": "TA000000",
+    "definition": "Block grants are grants awarded by the federal government to state and local governments for broadly defined purposes, such as community development or social services.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TB000000",
+    "label": "Foundation-administered program awards",
+    "parent": null,
+    "definition": "Awards to charitable programs developed and/or administered directly by the funder. These programs can include initiatives supported exclusively by the funder or research programs administered by the funder.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TC000000",
+    "label": "Matching grants",
+    "parent": null,
+    "definition": "Grants made to match funds provided by another donor and grants paid only if the donee is able to raise additional funds from another source. Use For: Challenge grants. Do not use for Employee matching gifts.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TD000000",
+    "label": "Employee matching gifts",
+    "parent": null,
+    "definition": "Contributions made, usually by corporate foundations, to match gifts made by corporate employees. These may be part of a company-wide effort to raise funds for a single organization (as a United Way fundraising drive). They may also be restricted to certain types of organizations, such as schools, one's alma mater, organizations in a certain community, etc. Do not use for contributions made to match an employee's time volunteered to a charitable organization. Do not use for Matching grants.",
+    "level": 1,
+    "formerCode": "85"
+  },
+  {
+    "code": "TE000000",
+    "label": "Employee-related scholarships",
+    "parent": null,
+    "definition": "Contributions to scholarship programs directed by a company-sponsored foundation usually for children of employees; these programs are frequently administered by the National Merit Scholarship Corporation, Scholarship America, or a similar organization, which is responsible for the selection of scholars.",
+    "level": 1,
+    "formerCode": "86"
+  },
+  {
+    "code": "TF000000",
+    "label": "Employee volunteer services",
+    "parent": null,
+    "definition": "Ongoing coordinated efforts through which a company or other funder promotes volunteer involvement with nonprofits or charities on the part of its employees. The involvement may be during work time or after hours. If employees volunteer on their own initiative, the transaction is not classified as Employee volunteer services or as corporate voluntarism.",
+    "level": 1,
+    "formerCode": "73"
+  },
+  {
+    "code": "TG000000",
+    "label": "Officers and trustees discretionary grants",
+    "parent": null,
+    "definition": "Financial support made under a system where designated foundation officers or staff have the privilege of making grants to recipients of their choosing without extensive board review. These grants must adhere to the scope of the foundation's purposes.",
+    "level": 1,
+    "formerCode": "83"
+  },
+  {
+    "code": "TH000000",
+    "label": "Stock transfers and certificates",
+    "parent": null,
+    "definition": "Contributions made in the form of securities (stocks or bonds).",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TJ000000",
+    "label": "Promissory notes",
+    "parent": null,
+    "definition": "Legal or financial instruments in the form of written promises to pay a set sum of money to a payee at a future time or on demand.  The payee can redeem the note, or count it as an asset.  Use For: Notes payable; Mortgage notes.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TK000000",
+    "label": "Grants to individuals",
+    "parent": null,
+    "definition": "Awards given directly to individuals and not through other nonprofit organizations, or grants made to organizations and earmarked for a specific named person. Some grantmakers have a specific limitation stating that they will make no grants to individuals. In the U.S., in order to make grants to individuals, a foundation must have a program that has received formal IRS approval. These awards are often for aid to the needy, student aid, and emergency funds.",
+    "level": 1,
+    "formerCode": "90"
+  },
+  {
+    "code": "TM000000",
+    "label": "Loans to individuals",
+    "parent": null,
+    "definition": "Assistance in the form of loans made directly by the organization to individuals rather than other organizations.  Loans may be at low or no interest, but must be repaid under terms set by the loaning institution.",
+    "level": 1,
+    "formerCode": "9T"
+  },
+  {
+    "code": "TN000000",
+    "label": "Contracts",
+    "parent": null,
+    "definition": "The fulfillment of agreements or obligations between parties. In this context, the contract is often a fee-for-service agreement offered by a funder and accepted by a recipient.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TP000000",
+    "label": "In-kind gifts",
+    "parent": null,
+    "definition": "Contributions of equipment, supplies, or other property as distinct from monetary grants. Some organizations may also donate space or staff time as an in-kind contribution; do not use for grants of stocks and bonds.",
+    "level": 1,
+    "formerCode": "97"
+  },
+  {
+    "code": "TP010000",
+    "label": "Donated art",
+    "parent": "TP000000",
+    "definition": "Contributions in the form of artwork, antiques, historical or collectible objects. These may be artworks meant to be part of a permanent collection, as in a museum or gallery, or artworks intended for decoration or display, as in public spaces or workplaces.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TP020000",
+    "label": "Donated equipment",
+    "parent": "TP000000",
+    "definition": "These contributions may include surplus furniture, office machines, paper, appliances, laboratory apparatus, or other items, and often are given to charities, schools, or hospitals.",
+    "level": 2,
+    "formerCode": "93"
+  },
+  {
+    "code": "TP030000",
+    "label": "Donated land",
+    "parent": "TP000000",
+    "definition": "Contributions of real estate, land or developed property. Institutions of higher education often receive gifts of real estate; land may also be given to community groups for housing development, parks, or recreational facilities.",
+    "level": 2,
+    "formerCode": "94"
+  },
+  {
+    "code": "TP040000",
+    "label": "Donated products",
+    "parent": "TP000000",
+    "definition": "Contributions from companies giving away what they make or produce. Product donations can include periodic clothing donations to a shelter for the homeless or regular donations of pharmaceuticals to a health clinic resulting in a reliable supply.",
+    "level": 2,
+    "formerCode": "95"
+  },
+  {
+    "code": "TP050000",
+    "label": "Use of facilities",
+    "parent": "TP000000",
+    "definition": "These contributions may include rent-free or below-market rate use of office space for temporary periods, use of dining and meeting facilities, or infrastructure services such as telecommunications services, mailing services, transportation services, or computer services.",
+    "level": 2,
+    "formerCode": "76"
+  },
+  {
+    "code": "TQ000000",
+    "label": "Program-related investments",
+    "parent": null,
+    "definition": "Loans or other investments to support charitable activities that involve the potential return of capital within an established time frame, and usually below market rates. In the U.S., PRIs include financing methods commonly associated with banks or other private investors, such as loans, loan guarantees, linked deposits, and equity investments in charitable organizations or in commercial ventures for charitable purposes. Do not use for recoverable grants or conditional grants.",
+    "level": 1,
+    "formerCode": "80"
+  },
+  {
+    "code": "TQ010000",
+    "label": "PRI loans",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of low- or no-interest loans made to an organization.",
+    "level": 2,
+    "formerCode": "8A"
+  },
+  {
+    "code": "TQ020000",
+    "label": "PRI interim financing",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of short-term loans to provide temporary financing until more permanent financing becomes available.",
+    "level": 2,
+    "formerCode": "8B"
+  },
+  {
+    "code": "TQ030000",
+    "label": "PRI loan guarantees",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of pledges to cover payment of debt or to perform some obligation if the liable organization fails to perform. When a third party guarantees a loan, they promise to repay in the event of a default by the borrower.",
+    "level": 2,
+    "formerCode": "8C"
+  },
+  {
+    "code": "TQ040000",
+    "label": "PRI equity investments",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of an ownership taken by a grantmaker in an organization, or a venture taken by the grantmaker through an investment. Returns on investments are dependent on the profitability of the organization or venture.",
+    "level": 2,
+    "formerCode": "8D"
+  },
+  {
+    "code": "TQ050000",
+    "label": "PRI loans for loan funds",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of low- or no-interest loans made available to lending organizations who then provide low-interest loans to needy individuals or organizations.",
+    "level": 2,
+    "formerCode": "8E"
+  },
+  {
+    "code": "TQ060000",
+    "label": "PRI linked deposits and certificates of deposit",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of deposits in an account (usually a CD) with a financial institution to induce that institution's support for one or more projects. By accruing no or low interest on its deposit, the grantmaker essentially subsidizes the interest rate of the borrowers.",
+    "level": 2,
+    "formerCode": "8F"
+  },
+  {
+    "code": "TQ070000",
+    "label": "PRI charitable use real estate",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in property or material goods that are used for charitable purposes. In most cases a property, such as a building, is held by a grantmaker who in turn donates or leases the asset at below market rates to a nonprofit organization. The asset remains property of the grantmaking organization.",
+    "level": 2,
+    "formerCode": "8G"
+  },
+  {
+    "code": "TQ080000",
+    "label": "PRI lines of credit",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of agreements between a grantmaker (as a lender) and an organization that the organization can borrow money at any time up to an established limit.",
+    "level": 2,
+    "formerCode": "8H"
+  },
+  {
+    "code": "TQ090000",
+    "label": "PRI mortgage financing",
+    "parent": "TQ000000",
+    "definition": "Program-related investments in the form of funds made available to lending organizations who then provide low-interest mortgages to needy individuals.",
+    "level": 2,
+    "formerCode": "8I"
+  },
+  {
+    "code": "TQ100000",
+    "label": "PRI business start-ups and expansions",
+    "parent": "TQ000000",
+    "definition": "Program-related investments designed to stimulate the business sector. Goals for these investments range from job creation to developing commercial infrastructure in a community.",
+    "level": 2,
+    "formerCode": "8J"
+  },
+  {
+    "code": "TR000000",
+    "label": "Mission-related investments",
+    "parent": null,
+    "definition": "Investments made by philanthropic entities in the pursuit of both financial and social returns. Usually these investments broadly support the  entity's missions and programmatic goals while seeking market-rate returns.",
+    "level": 1,
+    "formerCode": "MRI"
+  },
+  {
+    "code": "TR010000",
+    "label": "Cash MRIs",
+    "parent": "TR000000",
+    "definition": "Market-rate deposits in community development banks and community development credit unions to support the investor's philanthropic goals and purposes, or to induce that institution's support for one or more projects.",
+    "level": 2,
+    "formerCode": "CASH"
+  },
+  {
+    "code": "TR020000",
+    "label": "MRI community development credit union deposits",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in member-owned non-profit cooperatives that promote ownership of assets and savings, and provide affordable credit and retail financial services to low-income people, to induce that institution's support for one or more projects.",
+    "level": 2,
+    "formerCode": "CDCU"
+  },
+  {
+    "code": "TR030000",
+    "label": "MRI community development bank deposits",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in for-profit corporations that provide capital to rebuild economically distressed communities through targeted lending and investment to induce that institution's support for one or more projects.",
+    "level": 2,
+    "formerCode": "CDEV"
+  },
+  {
+    "code": "TR040000",
+    "label": "MRI community development loan fund deposits",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in organizations (usually non-profits) that provide financing and development services to businesses, organizations, and individuals in low-income urban and rural areas to induce that institution's support for one or more projects.",
+    "level": 2,
+    "formerCode": "CDLF"
+  },
+  {
+    "code": "TR050000",
+    "label": "Fixed income MRIs",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in bonds and other short and long-term, fixed-return debt instruments that support community and economic development activities (housing, infrastructure, job creation).  These include product types: targeted community development bonds, asset backed securities (bonds backed by mortgages, business-loans).",
+    "level": 2,
+    "formerCode": "FIXI"
+  },
+  {
+    "code": "TR060000",
+    "label": "Public equity MRIs",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in public equity funds that purchase stock in public companies using screens for inclusion (positive screening) or exclusion (negative screening) based on social and environmental criteria.",
+    "level": 2,
+    "formerCode": "PEQU"
+  },
+  {
+    "code": "TR070000",
+    "label": "Private equity MRIs",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in unlisted mission-oriented companies that range from venture capital investments in start-ups, to mezzanine financing in established companies aiming for a trade sale or public listing, to buy-outs of public companies.",
+    "level": 2,
+    "formerCode": "PRIV"
+  },
+  {
+    "code": "TR080000",
+    "label": "Real estate MRIs",
+    "parent": "TR000000",
+    "definition": "Market-rate investments in private equity real estate finance products investing in the potential growth in market value of investment property.  These include investments in mixed-use, mixed-income greyfields (urban infill development) and brownfields (clean-up of environmentally contaminated sites); targeted investment in underserved communities; provision of affordable and workforce housing; smart growth and conservation; and energy-efficient management and construction.",
+    "level": 2,
+    "formerCode": "REAL"
+  },
+  {
+    "code": "TS000000",
+    "label": "Pro bono services",
+    "parent": null,
+    "definition": "Pro bono services rendered by a company, professional services firm, intermediary, association or individual professional leveraging the core competencies and expertise of the professional(s) engaged to meet the client’s need.",
+    "level": 1,
+    "formerCode": "PB"
+  },
+  {
+    "code": "TS010000",
+    "label": "Pro bono strategic management services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in the area of strategic management, including the development of a strategic plan, refined mission, environmental and sustainability policy and plan, internal capacity assessment, strengths, weaknesses, opportunities, and threats analysis, competitive analysis, earned income business plan, geographic expansion plan, and logic model design.",
+    "level": 2,
+    "formerCode": "P1"
+  },
+  {
+    "code": "TS020000",
+    "label": "Pro bono board services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in board effectiveness assessment, board recruitment process design, board reporting, meeting facilitation, executive coaching, and performance review.",
+    "level": 2,
+    "formerCode": "P2"
+  },
+  {
+    "code": "TS030000",
+    "label": "Pro bono human resources services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in the area of human resources, including a strategic assessment and recommendations for a human resources plan, organizational design, employee recruitment plan, organizational diversity plan, performance management system, back office systems implementation, staff compensation and incentive plan, staff training and development plan, and an internal communications plan.",
+    "level": 2,
+    "formerCode": "P3"
+  },
+  {
+    "code": "TS040000",
+    "label": "Pro bono financial management services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in financial management, including but not limited to program cost analysis, financial audit, financial controls assessment and design, budgeting process design, pricing strategy, and purchasing and supply chain audit.",
+    "level": 2,
+    "formerCode": "P4"
+  },
+  {
+    "code": "TS050000",
+    "label": "Pro bono fundraising services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in programs or projects directly related to fundraising. These may include event planning and production, executive fundraising coaching, donor segmentation, in-kind opportunity assessment, capital campaign design and management, and the development of capital campaign materials.",
+    "level": 2,
+    "formerCode": "P5"
+  },
+  {
+    "code": "TS060000",
+    "label": "Pro bono marketing and branding services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in marketing and branding. Programs or projects may cover issues such as a program marketing, organizational positioning and key messages,  visual identity, or re-naming.",
+    "level": 2,
+    "formerCode": "P6"
+  },
+  {
+    "code": "TS070000",
+    "label": "Pro bono communications and public relations services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in external communications and public relations,  including but not limited to assistance with the development of an annual report, brochure, newsletter design, and/or public service announcement.",
+    "level": 2,
+    "formerCode": "P7"
+  },
+  {
+    "code": "TS080000",
+    "label": "Pro bono technology infrastructure services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in technology infrastructure such as donor database implementation, the development of an organizational IT plan, installation of office networking, remote IT access set up, and program database implementation.",
+    "level": 2,
+    "formerCode": "P8"
+  },
+  {
+    "code": "TS090000",
+    "label": "Pro bono interactive and website technology services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in website technology, including the design and development of a basic website, interactive website, intranet, and extranet.",
+    "level": 2,
+    "formerCode": "P9"
+  },
+  {
+    "code": "TS100000",
+    "label": "Pro bono advocacy services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance related to advocacy, including advocating for better services in various program areas (for example school reform, full access to health care, legal reform, environmental clean up work, etc.) and providing assistance in planning advocacy campaigns that will follow current legal guidelines preventing certain kinds of advocacy by nonprofits in the U.S.",
+    "level": 2,
+    "formerCode": "P10"
+  },
+  {
+    "code": "TS110000",
+    "label": "Pro bono program design and analysis services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in program design and analysis includes but is not limited to the development of a volunteer management system, volunteer assessment, program evaluation, client needs assessment, client service evaluation, and operations process design.",
+    "level": 2,
+    "formerCode": "P11"
+  },
+  {
+    "code": "TS120000",
+    "label": "Pro bono real estate and facilities services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in the area of real estate and facilities, including a facilities needs assessment, interior design and brand integration project, building accessibility and code compliance analysis, facilities renovation, and lease review.",
+    "level": 2,
+    "formerCode": "P12"
+  },
+  {
+    "code": "TS130000",
+    "label": "Pro bono legal services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in the area of legal support, including donation of legal services in court situations, review of various legal documents including those related to incorporation and other law, justice and counsel issues.",
+    "level": 2,
+    "formerCode": "P13"
+  },
+  {
+    "code": "TS140000",
+    "label": "Pro bono medical services",
+    "parent": "TS000000",
+    "definition": "Pro bono consulting assistance in the medical area, including donation of medical services and equipment.",
+    "level": 2,
+    "formerCode": "P14"
+  },
+  {
+    "code": "TS150000",
+    "label": "Pro bono consulting services",
+    "parent": "TS000000",
+    "definition": "Professional staff support provided to consult on a project of mutual interest to both parties or to evaluate services.",
+    "level": 2,
+    "formerCode": "72"
+  },
+  {
+    "code": "TS160000",
+    "label": "Loaned talent (pro bono)",
+    "parent": "TS000000",
+    "definition": "Professionals and executive staff who are employees of a grantmaker who are loaned out by the grantmaker to help a nonprofit in an area involving their particular skills.",
+    "level": 2,
+    "formerCode": "74"
+  },
+  {
+    "code": "TT000000",
+    "label": "Cryptocurrency grants",
+    "parent": null,
+    "definition": "Monetary contributions using cryptocurrency or blockchain resources.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "TV000000",
+    "label": "Pledges",
+    "parent": null,
+    "definition": "Announcements of the intent to make a monetary or in-kind contribution of specified value, usually in response to a disaster or other type of crisis. These pledges may be paid in a lump sum, paid in the same year, or paid over a set number of months or years.",
+    "level": 1,
+    "formerCode": "NEW"
+  }
+]

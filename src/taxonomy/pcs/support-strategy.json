@@ -1,0 +1,850 @@
+[
+  {
+    "code": "UA000000",
+    "label": "General support",
+    "parent": null,
+    "definition": "Support for the day-to-day operating costs of an organization or to further the general purpose of an organization. Also includes support which may be applied to any use or to fund any purpose (unrestricted support); does not include unspecified support. Use For: Membership dues.",
+    "level": 1,
+    "formerCode": "10"
+  },
+  {
+    "code": "UB000000",
+    "label": "Regranting",
+    "parent": null,
+    "definition": "Support, often to an intermediary or umbrella organization, intended to be passed on to other organizations or individuals based on agreed-upon criteria and limitations.",
+    "level": 1,
+    "formerCode": "*12"
+  },
+  {
+    "code": "UC000000",
+    "label": "Continuing support",
+    "parent": null,
+    "definition": "Support provided for the same purpose as in the previous year or years, or support renewed for another year or years.",
+    "level": 1,
+    "formerCode": "CT=Y"
+  },
+  {
+    "code": "UD000000",
+    "label": "Capacity-building and technical assistance",
+    "parent": null,
+    "definition": "Support to increase organizations’ sustainability and effectiveness through strategic and long-range planning, organizational assessment and development, business planning, and the use of outside consultants. Use primarily for process-oriented capacity-building that seeks to improve organizational practices. For capacity-building of individuals, use Individual development. See also: Management and leadership development.",
+    "level": 1,
+    "formerCode": "13"
+  },
+  {
+    "code": "UD010000",
+    "label": "Technical assistance",
+    "parent": "UD000000",
+    "definition": "Provision of any specialized service or skill that a nonprofit does not possess within the organization, but which it may need in order to operate more effectively. Use For: Consultants, Consultancies.",
+    "level": 2,
+    "formerCode": "70"
+  },
+  {
+    "code": "UD020000",
+    "label": "Seed money",
+    "parent": "UD000000",
+    "definition": "To start, establish or initiate a new project or organization; may cover salaries and other operating expenses of a new project. Use For: Start-up funds.",
+    "level": 2,
+    "formerCode": "46"
+  },
+  {
+    "code": "UD030000",
+    "label": "System and operational improvements",
+    "parent": "UD000000",
+    "definition": "Efforts to enhance an organization's effectiveness through development of best practices, policies and procedures, performance management systems and tools.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UD040000",
+    "label": "Fiscal sponsorships",
+    "parent": "UD000000",
+    "definition": "A formal arrangement in which a tax-exempt public charity (or similar registered nonprofit) sponsors a project or organization that lacks an exempt status or official registration. The sponsoring organization may assume expenditure responsibility for the organization and may provide other supporting administrative services.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UD050000",
+    "label": "Mergers",
+    "parent": "UD000000",
+    "definition": "To build an organization's capacity through merger with another organization, especially one with a similar or related mission or field of activity. Includes mergers between organizations that are related corporately, through charter or other affiliation; for example: mergers between two separate affiliates of the American Lung Association.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UD060000",
+    "label": "Regulation and administration",
+    "parent": "UD000000",
+    "definition": "Efforts to set standards, monitor performance, confer accreditation, or otherwise regulate and administer groups or projects.",
+    "level": 2,
+    "formerCode": "*04"
+  },
+  {
+    "code": "UE000000",
+    "label": "Leadership and professional development",
+    "parent": null,
+    "definition": "Professional development of management, executives, boards, staff, and volunteers. Includes leadership development, recruiting, training, and salaries.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UE010000",
+    "label": "Faculty and staff development",
+    "parent": "UE000000",
+    "definition": "Salary or development of staff members of specific programs.",
+    "level": 2,
+    "formerCode": "42"
+  },
+  {
+    "code": "UE020000",
+    "label": "Professorships",
+    "parent": "UE000000",
+    "definition": "To support or endow a professorship or chair, especially at an educational or research institution.",
+    "level": 2,
+    "formerCode": "43"
+  },
+  {
+    "code": "UE030000",
+    "label": "Board development",
+    "parent": "UE000000",
+    "definition": "To evaluate or improve a board's structure, role and performance. Includes board recruitment, ethical board governance and implementation of governance models.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UE040000",
+    "label": "Management and leadership development",
+    "parent": "UE000000",
+    "definition": "To strengthen organizational leadership. This includes salaries of management and executives, administrative staff support, training and leadership development programs.",
+    "level": 2,
+    "formerCode": "13"
+  },
+  {
+    "code": "UE050000",
+    "label": "Volunteer development",
+    "parent": "UE000000",
+    "definition": "Recruitment, training, and deployment of volunteer staff in administrative or program capacities.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UF000000",
+    "label": "Capital and infrastructure",
+    "parent": null,
+    "definition": "To acquire, upgrade or develop capital infrastructure. Includes: building acquisition, maintenance and renovations; land acquisitions and rent payments; information technology and other equipment; and collections.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UF010000",
+    "label": "Capital campaigns",
+    "parent": "UF000000",
+    "definition": "A campaign to raise funds for a variety of long-term purposes, such as building construction or acquisition, endowments, land acquisition, etc.",
+    "level": 2,
+    "formerCode": "20"
+  },
+  {
+    "code": "UF020000",
+    "label": "Equipment",
+    "parent": "UF000000",
+    "definition": "To acquire or upgrade equipment for an organization's day-to-day operations such as furnishings and HVAC systems or equipment related to an organization's specific programs such medical equipment for medical facilities. See Also: Information technology, Collections acquisitions.",
+    "level": 2,
+    "formerCode": "22"
+  },
+  {
+    "code": "UF030000",
+    "label": "Information technology",
+    "parent": "UF000000",
+    "definition": "To acquire, upgrade or develop computer technology. Includes hardware, software, peripherals, systems, networking components and mobile devices.",
+    "level": 2,
+    "formerCode": "23"
+  },
+  {
+    "code": "UF040000",
+    "label": "Building and renovations",
+    "parent": "UF000000",
+    "definition": "Constructing, renovating, remodeling, or rehabilitating property.",
+    "level": 2,
+    "formerCode": "21"
+  },
+  {
+    "code": "UF050000",
+    "label": "Rent",
+    "parent": "UF000000",
+    "definition": "Support to pay rent on a building or space.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UF060000",
+    "label": "Land acquisitions",
+    "parent": "UF000000",
+    "definition": "Support to purchase real estate property (not buildings).",
+    "level": 2,
+    "formerCode": "24"
+  },
+  {
+    "code": "UF070000",
+    "label": "Building acquisitions",
+    "parent": "UF000000",
+    "definition": "Support to purchase buildings or other structures.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UF080000",
+    "label": "Facilities maintenance",
+    "parent": "UF000000",
+    "definition": "Support for day-to-day operation or general maintenance of buildings and grounds.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UF090000",
+    "label": "Collections acquisitions",
+    "parent": "UF000000",
+    "definition": "Acquisitions by libraries, schools, museums, etc. of permanent materials as part of a collection, often books, artifacts, or art.",
+    "level": 2,
+    "formerCode": "27"
+  },
+  {
+    "code": "UF100000",
+    "label": "Collections management and preservation",
+    "parent": "UF000000",
+    "definition": "Maintenance, preservation, organization, description and conservation of tangible or digital items in a collection.",
+    "level": 2,
+    "formerCode": "4A"
+  },
+  {
+    "code": "UG000000",
+    "label": "Financial sustainability",
+    "parent": null,
+    "definition": "To ensure continued financial viability for organizations, especially those with low resources or serving low-resource/high need communities. Includes efforts to develop sustainable fundraising, marketing and development within organizations.",
+    "level": 1,
+    "formerCode": "12"
+  },
+  {
+    "code": "UG010000",
+    "label": "Earned income",
+    "parent": "UG000000",
+    "definition": "Support to increase the revenue generated from the sale of goods, services rendered, or work performed as part of the activities of an organization or program.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UG020000",
+    "label": "Endowments",
+    "parent": "UG000000",
+    "definition": "Bequests or gifts intended to be kept permanently and invested to provide income for continued support of an organization.",
+    "level": 2,
+    "formerCode": "25"
+  },
+  {
+    "code": "UG030000",
+    "label": "Financial services",
+    "parent": "UG000000",
+    "definition": "Support for development of or access to financial services including budget, accounting, auditing, tax assistance and planning, and other services such as loans, lines of credit, and banking or credit union services. Note: Loans, lines of credit, etc. are not considered PRIs or MRIs unless specifically stated as such by the grantmaking organization.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UG040000",
+    "label": "Annual campaigns",
+    "parent": "UG000000",
+    "definition": "Any organized effort by a nonprofit to secure gifts on an annual basis; also called annual appeals.",
+    "level": 2,
+    "formerCode": "15"
+  },
+  {
+    "code": "UG050000",
+    "label": "Fundraising",
+    "parent": "UG000000",
+    "definition": "To raise donated funds and maintain productive relationships with donors. Use for fundraising galas and to purchase tables or tickets to events.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UG060000",
+    "label": "Debt reduction",
+    "parent": "UG000000",
+    "definition": "To reduce an organization's indebtedness; also referred to as deficit financing. Frequently refers to mortgage relief.",
+    "level": 2,
+    "formerCode": "26"
+  },
+  {
+    "code": "UG070000",
+    "label": "Emergency funds",
+    "parent": "UG000000",
+    "definition": "Support to cover the immediate funding needs of an organization or an individual on an emergency basis, due to a crisis or security risk. This strategy prioritizes quick delivery of funding through streamlined grant approval and payment processes. Includes rapid response grantmaking.",
+    "level": 2,
+    "formerCode": "30"
+  },
+  {
+    "code": "UG080000",
+    "label": "Sponsorships",
+    "parent": "UG000000",
+    "definition": "Support for fundraising, celebratory, or programmatic events for an organization where the funder's name or trademark is branded or marketed along with the event. Includes support for walks/races to raise money for a disease or cause, dinners or tables (in lieu of a donation) at events honoring a person or cause, and the underwriting of programs and events such as performances, seasons, exhibitions, etc.",
+    "level": 2,
+    "formerCode": "77"
+  },
+  {
+    "code": "UH000000",
+    "label": "Outreach",
+    "parent": null,
+    "definition": "Efforts to reach out to the general public or specific groups/communities to make them aware of the organization or a specific program, event or cause funded or supported by the organization.",
+    "level": 1,
+    "formerCode": "75"
+  },
+  {
+    "code": "UH010000",
+    "label": "Public engagement and education",
+    "parent": "UH000000",
+    "definition": "To use communications strategies to educate, enlighten, raise awareness, and involve the public in certain activities and issue areas.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UH020000",
+    "label": "Audience development",
+    "parent": "UH000000",
+    "definition": "Support to reach a larger audience, to reach particular kinds of audiences, or to develop on-going relationships with an audience, especially but not exclusively for arts and cultural groups and programs.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UH030000",
+    "label": "Marketing",
+    "parent": "UH000000",
+    "definition": "Support for activities that promote, sell, distribute, and communicate the value of a product or service. Includes advertising and branding.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UH040000",
+    "label": "Cause-related marketing",
+    "parent": "UH000000",
+    "definition": "Support linking gifts to charity with marketing promotions.",
+    "level": 2,
+    "formerCode": "71"
+  },
+  {
+    "code": "UJ000000",
+    "label": "Network-building and collaboration",
+    "parent": null,
+    "definition": "Building structures and creating opportunities to work more closely and effectively with partners and peers, including through networking activities, physical or virtual. These may be collaborations, partnerships, alliances, meetings, travel, and other interactions with people or organizations as a way to exchange information or services, plan and prioritize, resolve conflicts, share resources, etc.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ010000",
+    "label": "Convening",
+    "parent": "UJ000000",
+    "definition": "To bring together diverse stakeholders in a collective process of sharing insights and making decisions about a specific topic and leading to a well-defined outcome. This process may be contained in a single gathering, but is more often accomplished in a series of meetings and other events or programs that allow a more thorough and in-depth process.",
+    "level": 2,
+    "formerCode": "41"
+  },
+  {
+    "code": "UJ020000",
+    "label": "Conferences and exhibitions",
+    "parent": "UJ000000",
+    "definition": "Encouragement and facilitation of the gathering of people, groups or organizations to meet and discuss issues or events on a particular topic. This includes conferences, seminars, workshops, meetings, annual conventions.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ020100",
+    "label": "Conference hosting",
+    "parent": "UJ020000",
+    "definition": "Support for a group or venue to sponsor a conference or seminar.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ020200",
+    "label": "Conference presenting",
+    "parent": "UJ020000",
+    "definition": "Support for a person, group or organization to make a presentation at a conference or seminar.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ020300",
+    "label": "Conference attendance",
+    "parent": "UJ020000",
+    "definition": "Support for a person or group of people to attend a conference or seminar.",
+    "level": 3,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ030000",
+    "label": "Exchange programs",
+    "parent": "UJ000000",
+    "definition": "Support for people to travel to other places and assume a local role there, as student, teacher, artist, volunteer, etc. These exchanges can be one-way or two-way and may be intended to facilitate a sharing of culture, history, tradition, or knowledge and foster a sense of mutual understanding.",
+    "level": 2,
+    "formerCode": "96"
+  },
+  {
+    "code": "UJ040000",
+    "label": "Grantee relations",
+    "parent": "UJ000000",
+    "definition": "Development of a better relationship between funders and the organizations they support, including development of shared goals and objectives, and improving communications and feedback.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ050000",
+    "label": "Donor collaborations",
+    "parent": "UJ000000",
+    "definition": "Formation of joint endeavors between grantmakers to optimize impact and avoid duplication of effort. This may include sharing of information, coordination of grantmaking, pooling of resources, and a shared decision-making process.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ060000",
+    "label": "Nonprofit collaborations",
+    "parent": "UJ000000",
+    "definition": "Support for 2 or more nonprofits to collaborate on an issue, project, publication, etc. Includes joint programming collaborations, merging of resources, sharing of resources, collaborative leadership, co-sponsorship.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ070000",
+    "label": "Online engagement",
+    "parent": "UJ000000",
+    "definition": "Building virtual structures and creating online opportunities for peers, partners, and supporters to interact and share information on topics and initiatives of mutual interest or shared projects.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UJ080000",
+    "label": "Information and Referral",
+    "parent": "UJ000000",
+    "definition": "Efforts to gather, organize, and disseminate information on subjects or activities to groups or individuals working in that area or to those requiring support or services in that area.",
+    "level": 2,
+    "formerCode": "*14"
+  },
+  {
+    "code": "UK000000",
+    "label": "Policy, advocacy and systems reform",
+    "parent": null,
+    "definition": "To develop, promote, and transform public policies, especially involving the proposal of novel solutions to ongoing challenges encountered by political, economic and social systems and institutions, especially in the field of activity central to the mission or purpose of an organization or project.",
+    "level": 1,
+    "formerCode": "*06"
+  },
+  {
+    "code": "UK010000",
+    "label": "Advocacy",
+    "parent": "UK000000",
+    "definition": "Advocacy in the public arena to influence policy and allocation of resources; this includes advocating for better policies and services in various program areas (for example school reform, full access to health care, legal reform, environmental clean-up work, etc.) and providing assistance in planning advocacy campaigns.",
+    "level": 2,
+    "formerCode": "14"
+  },
+  {
+    "code": "UK020000",
+    "label": "Systems reform",
+    "parent": "UK000000",
+    "definition": "Efforts meant to change fundamental structures of institutions, systems, and policies.",
+    "level": 2,
+    "formerCode": "*07"
+  },
+  {
+    "code": "UK030000",
+    "label": "Litigation",
+    "parent": "UK000000",
+    "definition": "Legal action in the public interest toward mission-related policy and reform goals, and activism in the court system. Also includes litigation, including arbitration, mediation and negotiation, in support of nonprofits and charitable organizations; especially legal guidance supporting operations; liability, contractual and governance issues; regulatory compliance; exempt organization and other tax concerns; fiduciary conduct; intellectual property; and other areas requiring legal expertise.  Use For: Legal advocacy, Strategic litigation.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UK040000",
+    "label": "Grassroots organizing",
+    "parent": "UK000000",
+    "definition": "Building popular support for, encouraging activism around, and helping to organize a forum to address an issue or policy, often a specific social justice issue, at the community level.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UK050000",
+    "label": "Coalition building",
+    "parent": "UK000000",
+    "definition": "The joining of human and material resources of individuals and organizations with common or diverse interests to work toward compatible goals of varying breadth and produce change through the actions of these partnerships. These may take the form of temporary, informal arrangements that can become permanent, independently constituted organizations, with local, regional or national membership.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UK060000",
+    "label": "Ethics and accountability",
+    "parent": "UK000000",
+    "definition": "Efforts to set and enforce ethical norms in certain fields, professions, etc.",
+    "level": 2,
+    "formerCode": "*08"
+  },
+  {
+    "code": "UK070000",
+    "label": "Equal access",
+    "parent": "UK000000",
+    "definition": "Efforts to ensure equal opportunity and access to services, resources, and advancement in particular fields of activity.",
+    "level": 2,
+    "formerCode": "*13"
+  },
+  {
+    "code": "UM000000",
+    "label": "Research and evaluation",
+    "parent": null,
+    "definition": "Efforts to discover, collect, analyze, interpret, test, document, and disseminate data, information, knowledge, and the applications of that knowledge. This includes basic and applied scientific research; studies, surveys, investigations and clinical trials in social sciences and medicine; historical research in the arts and humanities; evaluation of specific programs and initiatives; feasibility studies; institutional evaluations; and data measurement systems to assess and improve performance.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UM010000",
+    "label": "Research",
+    "parent": "UM000000",
+    "definition": "Basic and applied research, other studies, surveys, investigations, and clinical trials.",
+    "level": 2,
+    "formerCode": "60"
+  },
+  {
+    "code": "UM020000",
+    "label": "Program evaluations",
+    "parent": "UM000000",
+    "definition": "Evaluation of a specific project or program; includes awards both to agencies to pay for evaluation costs and to research institutes and other program evaluators.",
+    "level": 2,
+    "formerCode": "78"
+  },
+  {
+    "code": "UM030000",
+    "label": "Institutional evaluations",
+    "parent": "UM000000",
+    "definition": "Evaluation of an organization's specific mission, purpose, profile, and performance with an aim to improving stated objectives and outcomes.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UM040000",
+    "label": "Data and measurement systems",
+    "parent": "UM000000",
+    "definition": "The design and development of systems for gathering and analyzing data with an aim to help organizations improve how they measure, assess and, ultimately, improve their performance and results.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UN000000",
+    "label": "Program support",
+    "parent": null,
+    "definition": "To support specific projects or programs as opposed to general purpose support.",
+    "level": 1,
+    "formerCode": "40"
+  },
+  {
+    "code": "UN010000",
+    "label": "Pilot programs",
+    "parent": "UN000000",
+    "definition": "Untried projects or programs that are being tested for feasibility or proof-of-concept.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UN020000",
+    "label": "Program creation",
+    "parent": "UN000000",
+    "definition": "To design and implement a new program or project.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UN030000",
+    "label": "Program expansion",
+    "parent": "UN000000",
+    "definition": "To take an existing program and expand it to serve more participants, serve more locations, or address other appropriate areas of need.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UN040000",
+    "label": "Program replication",
+    "parent": "UN000000",
+    "definition": "To take a successful program and recreate it to serve another area or group.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UN050000",
+    "label": "Curriculum development",
+    "parent": "UN000000",
+    "definition": "Support for schools, colleges, universities, and educational support organizations to develop general or discipline-specific curricular. May be used outside of education-related coding, for example for a museum or filmmaker to create a curriculum for an exhibit or a film.",
+    "level": 2,
+    "formerCode": "47"
+  },
+  {
+    "code": "UP000000",
+    "label": "Presentations and productions",
+    "parent": null,
+    "definition": "The creation, development, and display of public, print and multimedia presentations and productions, often by  institutions and individuals in educational, nonprofit, arts, humanities and media.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UP010000",
+    "label": "Performances",
+    "parent": "UP000000",
+    "definition": "Mounting a production in the areas of performing arts, concerts, theatre, dance, etc.",
+    "level": 2,
+    "formerCode": "48"
+  },
+  {
+    "code": "UP020000",
+    "label": "Exhibitions",
+    "parent": "UP000000",
+    "definition": "To mount an exhibit or to support the installation of a touring exhibit, often by museums, libraries, or historical societies.",
+    "level": 2,
+    "formerCode": "49"
+  },
+  {
+    "code": "UP030000",
+    "label": "Recordings and broadcasts",
+    "parent": "UP000000",
+    "definition": "Film, television, video, audio, radio and recordings in other media. Not used for general support of TV or radio stations.",
+    "level": 2,
+    "formerCode": "44"
+  },
+  {
+    "code": "UP040000",
+    "label": "Publications",
+    "parent": "UP000000",
+    "definition": "To publish reports or other publications issued by a nonprofit resulting from research or projects of interest to the funder.",
+    "level": 2,
+    "formerCode": "45"
+  },
+  {
+    "code": "UP050000",
+    "label": "Online media",
+    "parent": "UP000000",
+    "definition": "To create, design, maintain and provide content for Web sites, electronic media, intranets, internet services and other online media.",
+    "level": 2,
+    "formerCode": "4C"
+  },
+  {
+    "code": "UP060000",
+    "label": "Commissioning new works",
+    "parent": "UP000000",
+    "definition": "Support for the creation and generation of new artistic works in a variety of fields and media.",
+    "level": 2,
+    "formerCode": "4B"
+  },
+  {
+    "code": "UQ000000",
+    "label": "Product and service development",
+    "parent": null,
+    "definition": "Efforts assisting nonprofits and charitable organizations through the phased life cycle of a product or service, from idea generation through feasibility study to product launch to enhancing the product or service after recipient feedback and process evaluation.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UQ010000",
+    "label": "Product discovery",
+    "parent": "UQ000000",
+    "definition": "Efforts assisting nonprofits and charitable organizations for exploratory process involving identification of issue, opportunity and target group or audience, proposal of solution and corresponding product, architecture of step-by-step strategy and outline of distribution plan, promoting institutional advancement through scalable model.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UQ020000",
+    "label": "Product development",
+    "parent": "UQ000000",
+    "definition": "Efforts assisting nonprofits and charitable organizations to design, create and conduct marketing research for existing or newly developed product through systematic procedural methodology, turning market opportunity into available, salable product.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UQ030000",
+    "label": "Commodity provision",
+    "parent": "UQ000000",
+    "definition": "Efforts assisting nonprofits and charitable organizations to acquire and distribute needed materials and products. Includes packaged goods, foodstuffs, pharmaceuticals, and other disposable and perishable health, medical, sanitary, agricultural and electronic supplies needed in bulk for disaster or international relief efforts, for example; as well as more customized, smaller batches of items intended for more localized, targeted programs. Do not use for equipment.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UQ040000",
+    "label": "Product and service delivery",
+    "parent": "UQ000000",
+    "definition": "Efforts to deliver or distribute products and services, and to streamline these processes, making necessary adjustments and improvements and optimizing recipient experience and overall efficiency and quality of the products or services.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UQ050000",
+    "label": "Translation",
+    "parent": "UQ000000",
+    "definition": "Conversion of material from one language into another, to convey its message and intent, in nonprofit and charitable literature, publications, articles, and other printed materials. Also includes the work of interpreters at conferences, convenings, workshops, lectures and other public events, facilitating dissemination of knowledge and information; and in institutional settings where individual interpretive services are needed to ensure equal access to services for speakers of other languages.",
+    "level": 2,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UR000000",
+    "label": "Individual development",
+    "parent": null,
+    "definition": "Support to provide assistance to individuals in the form of grants-in-aid, stipends, loans, work-study, or other awards for pursuing educational, research, or professional goals.",
+    "level": 1,
+    "formerCode": "NEW"
+  },
+  {
+    "code": "UR010000",
+    "label": "Awards, prizes and competitions",
+    "parent": "UR000000",
+    "definition": "Artists' awards, prizes, competitions, housing, living space, work space and other prizes.",
+    "level": 2,
+    "formerCode": "54"
+  },
+  {
+    "code": "UR020000",
+    "label": "Camperships",
+    "parent": "UR000000",
+    "definition": "Partial or full tuition subsidies to enable participants who would not otherwise be financially able to participate in fee-based camping programs.",
+    "level": 2,
+    "formerCode": "55"
+  },
+  {
+    "code": "UR030000",
+    "label": "Travel awards",
+    "parent": "UR000000",
+    "definition": "Awards to individuals to cover transportation and/or out-of-town living expenses while  attending a conference or completing a period of study or special project. Enrollment in a college or university is not a requirement.",
+    "level": 2,
+    "formerCode": "56"
+  },
+  {
+    "code": "UR040000",
+    "label": "Fellowships",
+    "parent": "UR000000",
+    "definition": "Support for fellowships at institutions, usually universities but there are exceptions, such as think tanks and other policy organizations.",
+    "level": 2,
+    "formerCode": "51"
+  },
+  {
+    "code": "UR050000",
+    "label": "Internships",
+    "parent": "UR000000",
+    "definition": "Awards for paid or unpaid positions providing work-experience, on-the-job training, and/or school credit. These positions can provide research or job services to organizations and serve as recruitment tools for employers, and can provide opportunities for interns to explore career possibilities, gain experience, and find permanent employment.",
+    "level": 2,
+    "formerCode": "52"
+  },
+  {
+    "code": "UR060000",
+    "label": "Scholarships",
+    "parent": "UR000000",
+    "definition": "Support to an individual or educational institution or organization to support a scholarship program, mainly for students at the undergraduate level.",
+    "level": 2,
+    "formerCode": "53"
+  },
+  {
+    "code": "UR070000",
+    "label": "Sabbaticals",
+    "parent": "UR000000",
+    "definition": "Support to take long-term but temporary leave, sometimes awarded as an employee benefit. Sabbaticals commonly last from 2 months to a year and can be used for rest, writing, research, or reflection.",
+    "level": 2,
+    "formerCode": "9W"
+  },
+  {
+    "code": "UR080000",
+    "label": "Residencies",
+    "parent": "UR000000",
+    "definition": "Nonmonetary award usually of short duration, usually only for artists of all disciplines to further their creative work. Meals, living quarters, equipment, and studio space may be provided.",
+    "level": 2,
+    "formerCode": "9L"
+  },
+  {
+    "code": "UR090000",
+    "label": "Student aid",
+    "parent": "UR000000",
+    "definition": "Support to students enabling them to attend educational institutions.",
+    "level": 2,
+    "formerCode": "50"
+  },
+  {
+    "code": "UR090100",
+    "label": "Aid to graduates or students of specific schools",
+    "parent": "UR090000",
+    "definition": "Support to people who attend or have attended a specific school. Some programs may also specify institutions to be attended after graduation. In many cases, application must be made through the high school or college instead of the foundation.",
+    "level": 3,
+    "formerCode": "9A"
+  },
+  {
+    "code": "UR090200",
+    "label": "Postdoctoral support",
+    "parent": "UR090000",
+    "definition": "Support for research or further study after receiving doctoral degree.",
+    "level": 3,
+    "formerCode": "9E"
+  },
+  {
+    "code": "UR090300",
+    "label": "Graduate support",
+    "parent": "UR090000",
+    "definition": "Support to pursue graduate work and a master’s level graduate degree after receiving an undergraduate degree.",
+    "level": 3,
+    "formerCode": "9G"
+  },
+  {
+    "code": "UR090400",
+    "label": "Technical education support",
+    "parent": "UR090000",
+    "definition": "Support to attend postsecondary institutions that offer certificates in education directly related to preparation for specific careers, and which require no more than two years of study.",
+    "level": 3,
+    "formerCode": "9H"
+  },
+  {
+    "code": "UR090500",
+    "label": "Precollege support",
+    "parent": "UR090000",
+    "definition": "Scholarships and loans given for expenses related to elementary or secondary education, such as private school tuition.",
+    "level": 3,
+    "formerCode": "9I"
+  },
+  {
+    "code": "UR090600",
+    "label": "Undergraduate support",
+    "parent": "UR090000",
+    "definition": "Support to pursue undergraduate work and a bachelor's or associate degree.",
+    "level": 3,
+    "formerCode": "9J"
+  },
+  {
+    "code": "UR090700",
+    "label": "Postgraduate support",
+    "parent": "UR090000",
+    "definition": "Support to pursue a doctoral degree after receiving a master’s level graduate degree",
+    "level": 3,
+    "formerCode": "9K"
+  },
+  {
+    "code": "UR090800",
+    "label": "Work-study grants",
+    "parent": "UR090000",
+    "definition": "Support for educational expenses awarded to students who engage in a part-time work arrangement. A work commitment of 10-15 hours per week is customarily required.",
+    "level": 3,
+    "formerCode": "9N"
+  },
+  {
+    "code": "UR090900",
+    "label": "Doctoral support",
+    "parent": "UR090000",
+    "definition": "Support for dissertation or thesis research in pursuit of a doctoral degree.",
+    "level": 3,
+    "formerCode": "9O"
+  },
+  {
+    "code": "UR091000",
+    "label": "Stipends",
+    "parent": "UR090000",
+    "definition": "Short-term awards offered to independent scholars, writers, artists and researchers to defray expenses incurred in advancing their professional goals.",
+    "level": 3,
+    "formerCode": "9Q"
+  },
+  {
+    "code": "US000000",
+    "label": "Participatory grantmaking",
+    "parent": null,
+    "definition": "Work done through a grantmaking process where the beneficiary community determines funding decisions.",
+    "level": 1,
+    "formerCode": "NEW"
+  }
+]

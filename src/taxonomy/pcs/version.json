@@ -1,0 +1,22 @@
+{
+  "release": "November 2024",
+  "retrievedAt": "2026-08-20",
+  "sourceUrl": "https://taxonomy.candid.org/content/download/1672237/34431192/file/PCS_Taxonomy_Definitions_2024.xlsx",
+  "sourcePage": "https://taxonomy.candid.org/resources/downloads",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Philanthropy Classification System, Candid (https://candid.org)",
+  "counts": {
+    "subjects": 867,
+    "populations": 171,
+    "support-strategy": 106,
+    "transaction-type": 58
+  },
+  "knownSourceQuirks": [
+    {
+      "facet": "transaction-type",
+      "code": "TA010000",
+      "note": "Labelled in the \"Level 1\" column but coded as a level-2 child of TA000000 (Cash grants). The definition — \"Block grants are grants awarded by the federal government...\" — confirms it is a kind of cash grant, so the code is authoritative and the column is a source typo."
+    }
+  ]
+}

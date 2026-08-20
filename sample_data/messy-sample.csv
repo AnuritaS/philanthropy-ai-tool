@@ -1,0 +1,13 @@
+Grant ID,Funder,Grantee,Amount,Award Date,Start,End,Subject,Transaction Type,State,Purpose,Notes
+MG-001,Cascadia Community Trust,Northside Youth Collective,"$1,250,000",2024-01-15,2024-01-01,2026-01-01,SB050200,TA000000,CA,Scholarship endowment,currency symbol and thousands separators
+MG-002,Cascadia Community Trust,Riverbend Housing Alliance,(5000),2024-02-01,2024-02-01,2025-02-01,SJ000000,TA000000,OR,Refunded portion of prior award,parenthesized negative
+MG-003,Cascadia Community Trust,,75000,2024-03-01,,,SC010000,TA000000,WA,Recipient withheld,blank recipient: required field
+MG-004,Merrivale Foundation,Clearwater Conservation Trust,250000,12/31/2024,12/31/2024,12/31/2026,SE000000,TA000000,CA,Habitat restoration,US slash date
+MG-004,Merrivale Foundation,Harbor Health Partners,180000,2024-12-31,2024-12-31,2025-12-31,SD000000,TA000000,NY,Clinic operations,"duplicate grant id, ISO date"
+MG-006,Merrivale Foundation,Foothills Literacy Project,1.2e5,2023-06-15,2023-06-15,2024-06-15,SB020000,TC000000,MI,Tutoring programme,scientific notation amount
+MG-007,Merrivale Foundation,Delta Arts Coalition,not disclosed,2023-07-01,,,SR000000,TA000000,TX,Confidential award,unparseable amount
+MG-008,Ostrander Family Fund,Prairie Food Network,45000,31/12/2024,,,SJ000000,TA000000,OR,Mobile pantry,"ambiguous day-first date: rejected, not guessed"
+MG-009,Ostrander Family Fund,Meridian Legal Aid,90000,,2024-01-01,2024-07-01,SC010000,TA000000,WA,Eviction defense,missing award date: required field
+MG-010,Ostrander Family Fund,Northside Youth Collective,"  62,500  ","Mar 1, 2024",2024-03-01,2027-03-01,sb050200; SE000000,TA000000,ca,Youth programming,"padded amount, textual date, lowercase multi-codes"
+MG-011,Ostrander Family Fund,Harbor Health Partners,0,2024-04-01,,,SD000000,TA000000,NY,Zero-dollar administrative record,non-positive amount
+MG-012,Ostrander Family Fund,Clearwater Conservation Trust,310000,2024-05-01,2026-05-01,2024-05-01,SE000000,TA000000,CA,Reversed period,"end before start: duration must be null, not negative"
