@@ -92,8 +92,11 @@ function buildFacet(grid, { sheet, prefix }) {
       continue;
     }
 
-    const label = (row[allTermsIdx] || '').trim();
-    const definition = definitionIdx === -1 ? '' : (row[definitionIdx] || '').trim();
+    // Some source cells wrap mid-phrase, leaving a literal newline inside the
+    // label. Collapse whitespace so a label is always one line of prose.
+    const flatten = (v) => String(v ?? '').replace(/\s+/g, ' ').trim();
+    const label = flatten(row[allTermsIdx]);
+    const definition = definitionIdx === -1 ? '' : flatten(row[definitionIdx]);
     const level = levelFromCode(code);
 
     // Cross-check the arithmetic against the sheet's own indentation columns.
@@ -109,7 +112,7 @@ function buildFacet(grid, { sheet, prefix }) {
       parent: parentOf(code),
       definition,
       level,
-      formerCode: formerIdx === -1 ? null : (row[formerIdx] || '').trim() || null,
+      formerCode: formerIdx === -1 ? null : flatten(row[formerIdx]) || null,
     });
   }
 
@@ -131,7 +134,7 @@ async function loadWorkbook(argPath) {
 }
 
 const buffer = await loadWorkbook(process.argv[2]);
-const { sheets, sheetNames } = parseWorkbook(buffer);
+const { sheets, sheetNames } = await parseWorkbook(buffer);
 mkdirSync(OUT_DIR, { recursive: true });
 
 let totalProblems = 0;

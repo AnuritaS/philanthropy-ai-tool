@@ -173,12 +173,14 @@ function parseSheet(xml, shared, dateStyles) {
 }
 
 /**
- * Read every sheet in a workbook.
- * @param {Buffer|Uint8Array|ArrayBuffer} buffer
+ * Read every sheet in a workbook. Async because inflation goes through the
+ * platform's DecompressionStream, which is the only DEFLATE available in both
+ * Node and the browser.
+ * @param {Uint8Array|ArrayBuffer} buffer
  * @returns {{ sheetNames: string[], sheets: Record<string, string[][]> }}
  */
-export function parseWorkbook(buffer) {
-  const files = readZip(buffer);
+export async function parseWorkbook(buffer) {
+  const files = await readZip(buffer);
   if (!files.has('xl/workbook.xml')) throw new Error('Not an .xlsx workbook: xl/workbook.xml is missing.');
 
   const shared = parseSharedStrings(files);
@@ -197,11 +199,11 @@ export function parseWorkbook(buffer) {
 
 /**
  * Parse one sheet into the { headers, rows } shape the ingestion layer expects.
- * @param {Buffer} buffer
+ * @param {Uint8Array|ArrayBuffer} buffer
  * @param {{ sheet?: string }} options - sheet name; defaults to the first.
  */
-export function parseExcel(buffer, { sheet } = {}) {
-  const { sheetNames, sheets } = parseWorkbook(buffer);
+export async function parseExcel(buffer, { sheet } = {}) {
+  const { sheetNames, sheets } = await parseWorkbook(buffer);
   if (sheetNames.length === 0) return { headers: [], rows: [], sheetNames: [] };
 
   const name = sheet ?? sheetNames[0];

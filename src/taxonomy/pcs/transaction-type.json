@@ -75,7 +75,7 @@
     "code": "TJ000000",
     "label": "Promissory notes",
     "parent": null,
-    "definition": "Legal or financial instruments in the form of written promises to pay a set sum of money to a payee at a future time or on demand.  The payee can redeem the note, or count it as an asset.  Use For: Notes payable; Mortgage notes.",
+    "definition": "Legal or financial instruments in the form of written promises to pay a set sum of money to a payee at a future time or on demand. The payee can redeem the note, or count it as an asset. Use For: Notes payable; Mortgage notes.",
     "level": 1,
     "formerCode": "NEW"
   },
@@ -91,7 +91,7 @@
     "code": "TM000000",
     "label": "Loans to individuals",
     "parent": null,
-    "definition": "Assistance in the form of loans made directly by the organization to individuals rather than other organizations.  Loans may be at low or no interest, but must be repaid under terms set by the loaning institution.",
+    "definition": "Assistance in the form of loans made directly by the organization to individuals rather than other organizations. Loans may be at low or no interest, but must be repaid under terms set by the loaning institution.",
     "level": 1,
     "formerCode": "9T"
   },
@@ -131,7 +131,7 @@
     "code": "TP030000",
     "label": "Donated land",
     "parent": "TP000000",
-    "definition": "Contributions of real estate, land or developed property. Institutions of higher education often receive gifts of real estate; land may also be given to community groups for housing development, parks, or recreational facilities.",
+    "definition": "Contributions of real estate, land or developed property. Institutions of higher education often receive gifts of real estate; land may also be given to community groups for housing development, parks, or recreational facilities.",
     "level": 2,
     "formerCode": "94"
   },
@@ -243,7 +243,7 @@
     "code": "TR000000",
     "label": "Mission-related investments",
     "parent": null,
-    "definition": "Investments made by philanthropic entities in the pursuit of both financial and social returns. Usually these investments broadly support the  entity's missions and programmatic goals while seeking market-rate returns.",
+    "definition": "Investments made by philanthropic entities in the pursuit of both financial and social returns. Usually these investments broadly support the entity's missions and programmatic goals while seeking market-rate returns.",
     "level": 1,
     "formerCode": "MRI"
   },
@@ -283,7 +283,7 @@
     "code": "TR050000",
     "label": "Fixed income MRIs",
     "parent": "TR000000",
-    "definition": "Market-rate investments in bonds and other short and long-term, fixed-return debt instruments that support community and economic development activities (housing, infrastructure, job creation).  These include product types: targeted community development bonds, asset backed securities (bonds backed by mortgages, business-loans).",
+    "definition": "Market-rate investments in bonds and other short and long-term, fixed-return debt instruments that support community and economic development activities (housing, infrastructure, job creation). These include product types: targeted community development bonds, asset backed securities (bonds backed by mortgages, business-loans).",
     "level": 2,
     "formerCode": "FIXI"
   },
@@ -307,7 +307,7 @@
     "code": "TR080000",
     "label": "Real estate MRIs",
     "parent": "TR000000",
-    "definition": "Market-rate investments in private equity real estate finance products investing in the potential growth in market value of investment property.  These include investments in mixed-use, mixed-income greyfields (urban infill development) and brownfields (clean-up of environmentally contaminated sites); targeted investment in underserved communities; provision of affordable and workforce housing; smart growth and conservation; and energy-efficient management and construction.",
+    "definition": "Market-rate investments in private equity real estate finance products investing in the potential growth in market value of investment property. These include investments in mixed-use, mixed-income greyfields (urban infill development) and brownfields (clean-up of environmentally contaminated sites); targeted investment in underserved communities; provision of affordable and workforce housing; smart growth and conservation; and energy-efficient management and construction.",
     "level": 2,
     "formerCode": "REAL"
   },
@@ -363,7 +363,7 @@
     "code": "TS060000",
     "label": "Pro bono marketing and branding services",
     "parent": "TS000000",
-    "definition": "Pro bono consulting assistance in marketing and branding. Programs or projects may cover issues such as a program marketing, organizational positioning and key messages,  visual identity, or re-naming.",
+    "definition": "Pro bono consulting assistance in marketing and branding. Programs or projects may cover issues such as a program marketing, organizational positioning and key messages, visual identity, or re-naming.",
     "level": 2,
     "formerCode": "P6"
   },
@@ -371,7 +371,7 @@
     "code": "TS070000",
     "label": "Pro bono communications and public relations services",
     "parent": "TS000000",
-    "definition": "Pro bono consulting assistance in external communications and public relations,  including but not limited to assistance with the development of an annual report, brochure, newsletter design, and/or public service announcement.",
+    "definition": "Pro bono consulting assistance in external communications and public relations, including but not limited to assistance with the development of an annual report, brochure, newsletter design, and/or public service announcement.",
     "level": 2,
     "formerCode": "P7"
   },
@@ -459,7 +459,7 @@
     "code": "TV000000",
     "label": "Pledges",
     "parent": null,
-    "definition": "Announcements of the intent to make a monetary or in-kind contribution of specified value, usually in response to a disaster or other type of crisis. These pledges may be paid in a lump sum, paid in the same year, or paid over a set number of months or years.",
+    "definition": "Announcements of the intent to make a monetary or in-kind contribution of specified value, usually in response to a disaster or other type of crisis. These pledges may be paid in a lump sum, paid in the same year, or paid over a set number of months or years.",
     "level": 1,
     "formerCode": "NEW"
   }

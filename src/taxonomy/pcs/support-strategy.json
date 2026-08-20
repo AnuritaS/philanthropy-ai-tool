@@ -451,7 +451,7 @@
     "code": "UK030000",
     "label": "Litigation",
     "parent": "UK000000",
-    "definition": "Legal action in the public interest toward mission-related policy and reform goals, and activism in the court system. Also includes litigation, including arbitration, mediation and negotiation, in support of nonprofits and charitable organizations; especially legal guidance supporting operations; liability, contractual and governance issues; regulatory compliance; exempt organization and other tax concerns; fiduciary conduct; intellectual property; and other areas requiring legal expertise.  Use For: Legal advocacy, Strategic litigation.",
+    "definition": "Legal action in the public interest toward mission-related policy and reform goals, and activism in the court system. Also includes litigation, including arbitration, mediation and negotiation, in support of nonprofits and charitable organizations; especially legal guidance supporting operations; liability, contractual and governance issues; regulatory compliance; exempt organization and other tax concerns; fiduciary conduct; intellectual property; and other areas requiring legal expertise. Use For: Legal advocacy, Strategic litigation.",
     "level": 2,
     "formerCode": "NEW"
   },
@@ -579,7 +579,7 @@
     "code": "UP000000",
     "label": "Presentations and productions",
     "parent": null,
-    "definition": "The creation, development, and display of public, print and multimedia presentations and productions, often by  institutions and individuals in educational, nonprofit, arts, humanities and media.",
+    "definition": "The creation, development, and display of public, print and multimedia presentations and productions, often by institutions and individuals in educational, nonprofit, arts, humanities and media.",
     "level": 1,
     "formerCode": "NEW"
   },
@@ -707,7 +707,7 @@
     "code": "UR030000",
     "label": "Travel awards",
     "parent": "UR000000",
-    "definition": "Awards to individuals to cover transportation and/or out-of-town living expenses while  attending a conference or completing a period of study or special project. Enrollment in a college or university is not a requirement.",
+    "definition": "Awards to individuals to cover transportation and/or out-of-town living expenses while attending a conference or completing a period of study or special project. Enrollment in a college or university is not a requirement.",
     "level": 2,
     "formerCode": "56"
   },

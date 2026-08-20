@@ -73,7 +73,7 @@
   },
   {
     "code": "PC000000",
-    "label": "Gender identity, sexual orientation, and sex\r\ncharacteristics",
+    "label": "Gender identity, sexual orientation, and sex characteristics",
     "parent": null,
     "definition": "People grouped by gender identity, sexual identity and specific sex characteristics.",
     "level": 1,
@@ -435,7 +435,7 @@
     "code": "PD050000",
     "label": "Caregivers",
     "parent": "PD000000",
-    "definition": "People who look after a person who is ill, frail, disabled, or otherwise unable to look after themselves.",
+    "definition": "People who look after a person who is ill, frail, disabled, or otherwise unable to look after themselves.",
     "level": 2,
     "formerCode": "NEW"
   },
@@ -651,7 +651,7 @@
     "code": "PF010102",
     "label": "Episcopalians and Anglicans",
     "parent": "PF010100",
-    "definition": "People who belong to or worship in an Episcopalian  or Anglican church.",
+    "definition": "People who belong to or worship in an Episcopalian or Anglican church.",
     "level": 4,
     "formerCode": "NEW"
   },
@@ -1011,7 +1011,7 @@
     "code": "PG040300",
     "label": "Detainees",
     "parent": "PG040000",
-    "definition": "Migrants, including asylum-seekers, undocumented persons, refugees, etc., held in custody by a state, a government or the military,  without a warrant or charge while awaiting resolution of status or deportation.",
+    "definition": "Migrants, including asylum-seekers, undocumented persons, refugees, etc., held in custody by a state, a government or the military, without a warrant or charge while awaiting resolution of status or deportation.",
     "level": 3,
     "formerCode": "NEW"
   },

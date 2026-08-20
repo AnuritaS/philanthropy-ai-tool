@@ -787,7 +787,7 @@
     "code": "SB070101",
     "label": "Adult literacy",
     "parent": "SB070100",
-    "definition": "Instruction in reading and language skills for adults who have never attended school or have interrupted formal schooling and want to raise their level of education.  For remedial reading programs for children and youth, or for \"family literacy programs\", use Reading promotion.",
+    "definition": "Instruction in reading and language skills for adults who have never attended school or have interrupted formal schooling and want to raise their level of education. For remedial reading programs for children and youth, or for \"family literacy programs\", use Reading promotion.",
     "level": 4,
     "formerCode": "NEW"
   },
@@ -939,7 +939,7 @@
     "code": "SB091100",
     "label": "Reading promotion",
     "parent": "SB090000",
-    "definition": "Programs that provide diagnostic testing or individual or group instruction for children and youth (and often their families as well)  who are having reading difficulties. Instruction focuses on phonics, dictionary skills, vocabulary development, spelling and study skills, comprehension and memory skills. Also included are story hour programs, book giveaways and other reading encouragement programs offered by libraries and other similar organizations. This code is used primarily for children and youth and elementary/secondary education, and for \"family literacy\". See also: Adult literacy.",
+    "definition": "Programs that provide diagnostic testing or individual or group instruction for children and youth (and often their families as well) who are having reading difficulties. Instruction focuses on phonics, dictionary skills, vocabulary development, spelling and study skills, comprehension and memory skills. Also included are story hour programs, book giveaways and other reading encouragement programs offered by libraries and other similar organizations. This code is used primarily for children and youth and elementary/secondary education, and for \"family literacy\". See also: Adult literacy.",
     "level": 3,
     "formerCode": "B92"
   },
@@ -1443,7 +1443,7 @@
     "code": "SC060000",
     "label": "Environmental education",
     "parent": "SC000000",
-    "definition": "Environmental education teaches children and adults how to learn about and investigate their environment, and to make intelligent, informed decisions about how they can take care of it. Taught in traditional classrooms, in communities, and in settings like nature centers, museums, parks, and zoos.  Educational programs that raise public awareness and knowledge about environmental issues or problems and provide the public with the necessary skills to make informed decisions and take responsible action. Outdoor education programs; environmental studies programs at educational institutions.",
+    "definition": "Environmental education teaches children and adults how to learn about and investigate their environment, and to make intelligent, informed decisions about how they can take care of it. Taught in traditional classrooms, in communities, and in settings like nature centers, museums, parks, and zoos. Educational programs that raise public awareness and knowledge about environmental issues or problems and provide the public with the necessary skills to make informed decisions and take responsible action. Outdoor education programs; environmental studies programs at educational institutions.",
     "level": 2,
     "formerCode": "C60"
   },
@@ -1563,7 +1563,7 @@
     "code": "SE030200",
     "label": "Electronic health records",
     "parent": "SE030000",
-    "definition": "Health records in a digital format and/or a digital information system for storing, sharing and retrieving digital health records. Includes system creation and maintenance, as well as issues related to personal privacy and system security. Electronic health records can be used for research purposes as  source of anonymous data.",
+    "definition": "Health records in a digital format and/or a digital information system for storing, sharing and retrieving digital health records. Includes system creation and maintenance, as well as issues related to personal privacy and system security. Electronic health records can be used for research purposes as source of anonymous data.",
     "level": 3,
     "formerCode": "NEW"
   },
@@ -1699,7 +1699,7 @@
     "code": "SE040404",
     "label": "Children's hospital care",
     "parent": "SE040400",
-    "definition": "Care provided in hospitals that provide  treatment specifically for children and that specialize in the prevention and treatment of childhood diseases and disorders.",
+    "definition": "Care provided in hospitals that provide treatment specifically for children and that specialize in the prevention and treatment of childhood diseases and disorders.",
     "level": 4,
     "formerCode": "NEW"
   },
@@ -1707,7 +1707,7 @@
     "code": "SE050000",
     "label": "Out-patient medical care",
     "parent": "SE000000",
-    "definition": "Care provided in health centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services of a specialized nature for people whose care does not require confinement or a hospital stay. Includes special care, such as:  Antivenin supplies; Artificial organs; Chemotherapy/radiation therapy; Clinical trials; Coma management; Diagnostic services including Diagnostic radiology/imaging (majors being CAT scans, chest x-rays, GI series, MRI, ultrasound); Blood tests; Bone density tests (for osteoporosis); Heart catheterization monitoring; and Pediatric evaluation. Dialysis centers; Hyperbaric chambers; Outpatient surgery; Pacemakers; Pain management; Second opinions; Sex change operations; Tattoo removal; and Weight management (other than eating disorders).",
+    "definition": "Care provided in health centers, clinics, and other facilities that provide walk-in, walk-out diagnostic and treatment services of a specialized nature for people whose care does not require confinement or a hospital stay. Includes special care, such as: Antivenin supplies; Artificial organs; Chemotherapy/radiation therapy; Clinical trials; Coma management; Diagnostic services including Diagnostic radiology/imaging (majors being CAT scans, chest x-rays, GI series, MRI, ultrasound); Blood tests; Bone density tests (for osteoporosis); Heart catheterization monitoring; and Pediatric evaluation. Dialysis centers; Hyperbaric chambers; Outpatient surgery; Pacemakers; Pain management; Second opinions; Sex change operations; Tattoo removal; and Weight management (other than eating disorders).",
     "level": 2,
     "formerCode": "E30"
   },
@@ -2259,7 +2259,7 @@
     "code": "SE130701",
     "label": "Clean water supply",
     "parent": "SE130700",
-    "definition": "Efforts to promote health by providing  households and communities access to clean and safe water for consumption and productive uses in pursuit of a livelihood; includes filtration systems, point-of-use treatment, pumping systems, well-digging, aqueducts, safe storage, rain-collection systems, and chemical treatments. For large scale water supply systems or infrastructure, see Water utilities. See also: Water pollution, and Water resources.",
+    "definition": "Efforts to promote health by providing households and communities access to clean and safe water for consumption and productive uses in pursuit of a livelihood; includes filtration systems, point-of-use treatment, pumping systems, well-digging, aqueducts, safe storage, rain-collection systems, and chemical treatments. For large scale water supply systems or infrastructure, see Water utilities. See also: Water pollution, and Water resources.",
     "level": 4,
     "formerCode": "E79"
   },
@@ -2275,7 +2275,7 @@
     "code": "SE130703",
     "label": "Hygiene",
     "parent": "SE130700",
-    "definition": "Encouragement of individual, household, and community practices associated with cleanliness for the purpose of  preserving health; including hand-washing, respiratory hygiene, food hygiene, medical hygiene, etc. This is one element of WASH (Water, Sanitation, and Hygiene) programs and will often be used in a 'clean water' context.",
+    "definition": "Encouragement of individual, household, and community practices associated with cleanliness for the purpose of preserving health; including hand-washing, respiratory hygiene, food hygiene, medical hygiene, etc. This is one element of WASH (Water, Sanitation, and Hygiene) programs and will often be used in a 'clean water' context.",
     "level": 4,
     "formerCode": "E7A"
   },
@@ -2283,7 +2283,7 @@
     "code": "SE140000",
     "label": "Medical specialties",
     "parent": "SE000000",
-    "definition": "Projects that include or represent physicians who have special training and expertise in one clinical area of practice which focuses on a specific age group (e.g., geriatrics, pediatrics), an organ system of the body (e.g., internal medicine, obstetrics/gynecology) or complex scientific techniques developed to diagnose or treat certain types of disorders (e.g., nuclear medicine, radiology). Use this term for projects that represent a wide variety of medical disciplines or those that are not broken out at a lower level. These may include: Aerospace medicine;  Family practice (care for entire family unit); Nuclear medicine (therapeutic utilization of nuclear materials); Occupational medicine (occupational disease and injury); and Rheumatology (joints, muscles, bones and tendons).",
+    "definition": "Projects that include or represent physicians who have special training and expertise in one clinical area of practice which focuses on a specific age group (e.g., geriatrics, pediatrics), an organ system of the body (e.g., internal medicine, obstetrics/gynecology) or complex scientific techniques developed to diagnose or treat certain types of disorders (e.g., nuclear medicine, radiology). Use this term for projects that represent a wide variety of medical disciplines or those that are not broken out at a lower level. These may include: Aerospace medicine; Family practice (care for entire family unit); Nuclear medicine (therapeutic utilization of nuclear materials); Occupational medicine (occupational disease and injury); and Rheumatology (joints, muscles, bones and tendons).",
     "level": 2,
     "formerCode": "G90"
   },
@@ -2593,7 +2593,7 @@
   },
   {
     "code": "SE150300",
-    "label": "Digestive system  diseases",
+    "label": "Digestive system diseases",
     "parent": "SE150000",
     "definition": "Programs of service, education and research on prevention or treatment of diseases and conditions such as abdominal pain, ulcers, diarrhea, cancer or jaundice that affect the digestive system including the stomach, bowels, liver, gallbladder and related organs. The related medical specialty is gastroenterology, a subspecialty of internal medicine.",
     "level": 3,
@@ -3091,7 +3091,7 @@
     "code": "SF040000",
     "label": "Biology",
     "parent": "SF000000",
-    "definition": "Efforts to support or conduct research in sciences which analyze the structure, function, growth, origin, evolution or distribution of living organisms and their relations to their natural environments. Use this high-level code for organizations that conduct broad research in biology/life sciences or focus on a specific area not broken out at a lower level, e.g., marine biology, biotechnology, biophysics, cell  biology, microbiology/bacteriology, toxicology, biological immunology, and virology.",
+    "definition": "Efforts to support or conduct research in sciences which analyze the structure, function, growth, origin, evolution or distribution of living organisms and their relations to their natural environments. Use this high-level code for organizations that conduct broad research in biology/life sciences or focus on a specific area not broken out at a lower level, e.g., marine biology, biotechnology, biophysics, cell biology, microbiology/bacteriology, toxicology, biological immunology, and virology.",
     "level": 2,
     "formerCode": "U50"
   },
@@ -3115,7 +3115,7 @@
     "code": "SF040300",
     "label": "Ecology",
     "parent": "SF040000",
-    "definition": "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings, including activities whose focus is properly in the scientific discipline and research. It is divided onto four broad categories: physiological ecology, having to do with the response of single species to environmental conditions; population ecology, focusing on the abundance and distribution of individual species and the factors that cause such distribution; community ecology, having to do with the number of species found at given location and their interactions;  ecosystems ecology, having to do with the structure and function of the entire suite of microbes, plants, and animals, and their abiotic environment, and how the parts interact to generate the whole. See also: Environmental education, Environmental studies for activities that extend beyond scientific education/research, have a broader interdisciplinary focus including social sciences, and are more concerned with social, economic and political aspects of environmental issues.",
+    "definition": "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings, including activities whose focus is properly in the scientific discipline and research. It is divided onto four broad categories: physiological ecology, having to do with the response of single species to environmental conditions; population ecology, focusing on the abundance and distribution of individual species and the factors that cause such distribution; community ecology, having to do with the number of species found at given location and their interactions; ecosystems ecology, having to do with the structure and function of the entire suite of microbes, plants, and animals, and their abiotic environment, and how the parts interact to generate the whole. See also: Environmental education, Environmental studies for activities that extend beyond scientific education/research, have a broader interdisciplinary focus including social sciences, and are more concerned with social, economic and political aspects of environmental issues.",
     "level": 3,
     "formerCode": "NEW"
   },
@@ -3219,7 +3219,7 @@
     "code": "SG020000",
     "label": "Sociology",
     "parent": "SG000000",
-    "definition": "The systematic study of social institutions and social relationships. Includes research, teaching or study in the areas of:  social theory; sociological research methods; social organization and structure; social stratification and hierarchies; dynamics of social change; family structures; social deviance and control; and applications to the study of specific social groups, social institutions and social problems.",
+    "definition": "The systematic study of social institutions and social relationships. Includes research, teaching or study in the areas of: social theory; sociological research methods; social organization and structure; social stratification and hierarchies; dynamics of social change; family structures; social deviance and control; and applications to the study of specific social groups, social institutions and social problems.",
     "level": 2,
     "formerCode": "V21"
   },
@@ -3699,7 +3699,7 @@
     "code": "SH050101",
     "label": "Assistive software",
     "parent": "SH050100",
-    "definition": "Programs and applications that make computers more accessible and user-friendly for people with disabilities. These can include speech recognition software and nonstandard input devices for people with physical disabilities, Braille translation software and screen readers for people with visual impairments,  and others. This can also include software designed for other purposes, but which include features that make the program more accessible. Use For: Accessibility software, Computer accessibility, Web accessibility. See also: Universal design, Assistive technology.",
+    "definition": "Programs and applications that make computers more accessible and user-friendly for people with disabilities. These can include speech recognition software and nonstandard input devices for people with physical disabilities, Braille translation software and screen readers for people with visual impairments, and others. This can also include software designed for other purposes, but which include features that make the program more accessible. Use For: Accessibility software, Computer accessibility, Web accessibility. See also: Universal design, Assistive technology.",
     "level": 4,
     "formerCode": "NEW"
   },
@@ -4027,7 +4027,7 @@
     "code": "SJ040400",
     "label": "Immigration law",
     "parent": "SJ040000",
-    "definition": "Practice of law and study of the body of legislation governing the entry of aliens to a country, the conditions under which they may stay, and the naturalization of  those who wish to become citizens. Includes legal services for those who wish to formalize or change their immigration status; and research and policy making efforts.",
+    "definition": "Practice of law and study of the body of legislation governing the entry of aliens to a country, the conditions under which they may stay, and the naturalization of those who wish to become citizens. Includes legal services for those who wish to formalize or change their immigration status; and research and policy making efforts.",
     "level": 3,
     "formerCode": "NEW"
   },
@@ -4395,7 +4395,7 @@
     "code": "SK010200",
     "label": "Traditional marriage",
     "parent": "SK010000",
-    "definition": "Work to support  the statutory and societal definitions of marriage as a legal union between one man and one woman, and the definition of spouse as a person of the opposite sex who is a husband or wife; and that oppose the legalization of same-sex marriage.  These organizations or programs may or may not also oppose the institutionalization of civil union, domestic partnership, adoption rights, spouse visitation, and other benefits or opportunities for same-sex couples.",
+    "definition": "Work to support the statutory and societal definitions of marriage as a legal union between one man and one woman, and the definition of spouse as a person of the opposite sex who is a husband or wife; and that oppose the legalization of same-sex marriage. These organizations or programs may or may not also oppose the institutionalization of civil union, domestic partnership, adoption rights, spouse visitation, and other benefits or opportunities for same-sex couples.",
     "level": 3,
     "formerCode": "R6E"
   },
@@ -4635,7 +4635,7 @@
     "code": "SK090000",
     "label": "Customs and border control",
     "parent": "SK000000",
-    "definition": "The mechanism by which flows of goods and people across national borders are regulated, including issues of national security, regulation of trade, control of illnesses of humans and livestock and agricultural pests, and  prevention of illegal border crossings. For policies and regulations regarding immigrants/immigration, see also Immigration and naturalization.",
+    "definition": "The mechanism by which flows of goods and people across national borders are regulated, including issues of national security, regulation of trade, control of illnesses of humans and livestock and agricultural pests, and prevention of illegal border crossings. For policies and regulations regarding immigrants/immigration, see also Immigration and naturalization.",
     "level": 2,
     "formerCode": "NEW"
   },
@@ -5139,7 +5139,7 @@
     "code": "SN050102",
     "label": "Sustainable finance",
     "parent": "SN050100",
-    "definition": "Sustainable finance is the practice of creating economic and social value through financial models, products and markets that are sustainable over time. It can be applied domestically and internationally, and is also often linked to environmental issues. Its priorities are ensuring  enough money is available for a project, how effectively and responsibly the money is spent, how well benefits are provided to local stakeholders, and other factors affecting long-term sustainability. Use For: Impact investing; Socially responsible finance; Socially responsible investment; Socially responsible investing; Socially conscious financing.",
+    "definition": "Sustainable finance is the practice of creating economic and social value through financial models, products and markets that are sustainable over time. It can be applied domestically and internationally, and is also often linked to environmental issues. Its priorities are ensuring enough money is available for a project, how effectively and responsibly the money is spent, how well benefits are provided to local stakeholders, and other factors affecting long-term sustainability. Use For: Impact investing; Socially responsible finance; Socially responsible investment; Socially responsible investing; Socially conscious financing.",
     "level": 4,
     "formerCode": "NEW"
   },
@@ -6163,7 +6163,7 @@
     "code": "SR190000",
     "label": "Food sovereignty",
     "parent": "SR000000",
-    "definition": "The right and responsibility of the people who produce, distribute and consume food to control the mechanisms and policies of food production and distribution, rather than corporations and market institutions.  And the right of communities and groups to have access and control over a healthy, culturally-appropriate food system. Use For: Food system control, Sustainable food systems, Food globalization, Global agriculture.",
+    "definition": "The right and responsibility of the people who produce, distribute and consume food to control the mechanisms and policies of food production and distribution, rather than corporations and market institutions. And the right of communities and groups to have access and control over a healthy, culturally-appropriate food system. Use For: Food system control, Sustainable food systems, Food globalization, Global agriculture.",
     "level": 2,
     "formerCode": "NEW"
   },
@@ -6275,7 +6275,7 @@
     "code": "SS030603",
     "label": "Dining services",
     "parent": "SS030600",
-    "definition": "Nutrition sites, senior nutrition programs, dining halls, cafeterias, congregate meal programs, canteens, soup kitchens and other eateries providing hot meals on a regular basis, often for elderly individuals, disabled adults, low-income persons, indigent people, or other target populations who may be at risk for nutritional deficits without assistance and who can benefit from an opportunity to socialize with others. These meals are often combined with recreational, educational and social activities. For programs that combine both Dining services and Food delivery but no other primary services, use Food aid.  Use also for meals for homeless or needy people at Thanksgiving and/or Christmas.",
+    "definition": "Nutrition sites, senior nutrition programs, dining halls, cafeterias, congregate meal programs, canteens, soup kitchens and other eateries providing hot meals on a regular basis, often for elderly individuals, disabled adults, low-income persons, indigent people, or other target populations who may be at risk for nutritional deficits without assistance and who can benefit from an opportunity to socialize with others. These meals are often combined with recreational, educational and social activities. For programs that combine both Dining services and Food delivery but no other primary services, use Food aid. Use also for meals for homeless or needy people at Thanksgiving and/or Christmas.",
     "level": 4,
     "formerCode": "K34"
   },
@@ -6419,7 +6419,7 @@
     "code": "SS050000",
     "label": "Youth development",
     "parent": "SS000000",
-    "definition": "Recreational, socialization, enrichment, cultural, entertainment, and developmental activities for children and youth, sometimes offered through youth-oriented clubs, teen centers, or safe spaces. Use this term for general purpose youth centers and clubs, like Police Athletic Leagues. Also includes programs that work to build character and develop leadership and social skills among children and youth. Does not include education related services, such as dropout programs, remedial education, etc. (see Education); or social service programs for families (see Family services) and custodial care services for children and youth (see Supportive housing). Other specific types of services, institutions such as job training and placement programs, sports, recreation programs, etc., should be classified under the category that describes their service focus; e.g., for jobs programs for youth, use Job services or Employment.  For organizations that primarily provide human services for kids, use Child welfare.",
+    "definition": "Recreational, socialization, enrichment, cultural, entertainment, and developmental activities for children and youth, sometimes offered through youth-oriented clubs, teen centers, or safe spaces. Use this term for general purpose youth centers and clubs, like Police Athletic Leagues. Also includes programs that work to build character and develop leadership and social skills among children and youth. Does not include education related services, such as dropout programs, remedial education, etc. (see Education); or social service programs for families (see Family services) and custodial care services for children and youth (see Supportive housing). Other specific types of services, institutions such as job training and placement programs, sports, recreation programs, etc., should be classified under the category that describes their service focus; e.g., for jobs programs for youth, use Job services or Employment. For organizations that primarily provide human services for kids, use Child welfare.",
     "level": 2,
     "formerCode": "O00"
   },
@@ -6667,7 +6667,7 @@
     "code": "SS070202",
     "label": "Retirement housing",
     "parent": "SS070200",
-    "definition": "Residential facilities and services for older adults who are able to live independently or require moderate support in daily living.  For instance, a multi-unit senior housing development that provides some light supportive services such as meals, housekeeping, social activities, and transportation. May also be called independent living communities for older adults. May encourage socialization by provision of meals in a central dining area and scheduled social programs; may also provide or organize various opportunities for recreation and entertainment.",
+    "definition": "Residential facilities and services for older adults who are able to live independently or require moderate support in daily living. For instance, a multi-unit senior housing development that provides some light supportive services such as meals, housekeeping, social activities, and transportation. May also be called independent living communities for older adults. May encourage socialization by provision of meals in a central dining area and scheduled social programs; may also provide or organize various opportunities for recreation and entertainment.",
     "level": 4,
     "formerCode": "L22"
   },
@@ -6731,7 +6731,7 @@
     "code": "SS080000",
     "label": "Job services",
     "parent": "SS000000",
-    "definition": "Activities and services that seek to provide meaningful work for people with significant barriers to employment. This includes job training and employment experiences for individuals with disabilities, aging  persons, people who have been disabled by use of drugs or alcohol, people with emotional difficulties, and economically disadvantaged people. Also includes certain forms of assistance in dealing with the loss of a job, the use of work skills for rehabilitation, and the balancing of work and family life.",
+    "definition": "Activities and services that seek to provide meaningful work for people with significant barriers to employment. This includes job training and employment experiences for individuals with disabilities, aging persons, people who have been disabled by use of drugs or alcohol, people with emotional difficulties, and economically disadvantaged people. Also includes certain forms of assistance in dealing with the loss of a job, the use of work skills for rehabilitation, and the balancing of work and family life.",
     "level": 2,
     "formerCode": "NEW"
   },
@@ -6827,7 +6827,7 @@
     "code": "ST030000",
     "label": "Goodwill promotion",
     "parent": "ST000000",
-    "definition": "Projects to promote international understanding through the exchange of ideas, arts, and culture;  and other activities that enable people to develop an appreciation for other societies, their traditions and culture.",
+    "definition": "Projects to promote international understanding through the exchange of ideas, arts, and culture; and other activities that enable people to develop an appreciation for other societies, their traditions and culture.",
     "level": 2,
     "formerCode": "Q20"
   },

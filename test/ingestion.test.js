@@ -93,21 +93,30 @@ test('ambiguous or invalid JSON is refused with a usable message', () => {
 
 /* ── Excel ── */
 
-test('a workbook round-trips through the ZIP and sheet readers', () => {
+test('a workbook round-trips through the ZIP and sheet readers', async () => {
   // Built by hand rather than fixtured, so the test owns its own input.
   const xlsx = buildMinimalXlsx();
-  assert.ok(readZip(xlsx).has('xl/workbook.xml'));
+  assert.ok((await readZip(xlsx)).has('xl/workbook.xml'));
 
-  const { sheetNames } = parseWorkbook(xlsx);
+  const { sheetNames } = await parseWorkbook(xlsx);
   assert.deepEqual(sheetNames, ['Grants']);
 
-  const { headers, rows } = parseExcel(xlsx);
+  const { headers, rows } = await parseExcel(xlsx);
   assert.deepEqual(headers, ['funder', 'amount']);
   assert.deepEqual(rows, [{ funder: 'Ford', amount: '1000' }, { funder: 'Mellon', amount: '2500' }]);
 });
 
-test('a non-workbook is rejected clearly', () => {
-  assert.throws(() => parseWorkbook(Buffer.from('not a zip at all')), /Not a ZIP archive/);
+test('a non-workbook is rejected clearly', async () => {
+  await assert.rejects(() => parseWorkbook(Buffer.from('not a zip at all')), /Not a ZIP archive/);
+});
+
+test('a DEFLATE-compressed entry inflates', async () => {
+  // The real PCS workbook is deflated, not stored; the stored-only fixture
+  // above would not exercise the inflate path at all.
+  const { deflateRawSync } = await import('node:zlib');
+  const xlsx = buildMinimalXlsx({ compress: (buf) => deflateRawSync(buf) });
+  const { rows } = await parseExcel(xlsx);
+  assert.deepEqual(rows[0], { funder: 'Ford', amount: '1000' });
 });
 
 /* ── Column mapping ── */
@@ -252,7 +261,7 @@ test('a reversed grant period yields a null term, not a negative one', () => {
 
 /* ── helper: a hand-built minimal xlsx ── */
 
-function buildMinimalXlsx() {
+function buildMinimalXlsx({ compress } = {}) {
   const files = [
     ['[Content_Types].xml',
       '<?xml version="1.0"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
@@ -274,11 +283,11 @@ function buildMinimalXlsx() {
       '<row r="3"><c r="A3" t="inlineStr"><is><t>Mellon</t></is></c><c r="B3"><v>2500</v></c></row>' +
       '</sheetData></worksheet>'],
   ];
-  return zipStore(files);
+  return zipStore(files, compress);
 }
 
-/** Build a STORED (uncompressed) zip — enough for the reader to open. */
-function zipStore(entries) {
+/** Build a zip, stored by default or DEFLATE-compressed when given a compressor. */
+function zipStore(entries, compress) {
   const crcTable = (() => {
     const t = new Int32Array(256);
     for (let n = 0; n < 256; n += 1) {
@@ -300,15 +309,18 @@ function zipStore(entries) {
 
   for (const [name, content] of entries) {
     const nameBuf = Buffer.from(name, 'utf8');
-    const data = Buffer.from(content, 'utf8');
-    const crc = crc32(data);
+    const uncompressed = Buffer.from(content, 'utf8');
+    const data = compress ? compress(uncompressed) : uncompressed;
+    const method = compress ? 8 : 0;
+    const crc = crc32(uncompressed);
 
     const local = Buffer.alloc(30 + nameBuf.length);
     local.writeUInt32LE(0x04034b50, 0);
     local.writeUInt16LE(20, 4);
+    local.writeUInt16LE(method, 8);
     local.writeUInt32LE(crc, 14);
     local.writeUInt32LE(data.length, 18);
-    local.writeUInt32LE(data.length, 22);
+    local.writeUInt32LE(uncompressed.length, 22);
     local.writeUInt16LE(nameBuf.length, 26);
     nameBuf.copy(local, 30);
     locals.push(local, data);
@@ -316,9 +328,10 @@ function zipStore(entries) {
     const central = Buffer.alloc(46 + nameBuf.length);
     central.writeUInt32LE(0x02014b50, 0);
     central.writeUInt16LE(20, 6);
+    central.writeUInt16LE(method, 10);
     central.writeUInt32LE(crc, 16);
     central.writeUInt32LE(data.length, 20);
-    central.writeUInt32LE(data.length, 24);
+    central.writeUInt32LE(uncompressed.length, 24);
     central.writeUInt16LE(nameBuf.length, 28);
     central.writeUInt32LE(offset, 42);
     nameBuf.copy(central, 46);
