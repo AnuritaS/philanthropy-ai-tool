@@ -63,11 +63,55 @@ function coerceNumber(value) {
   return parenNegative ? -n : n;
 }
 
+/*
+ * Grant dates are calendar dates, not instants. `new Date()` disagrees about
+ * which: it reads '2024-12-31' as UTC midnight but '12/31/2024' as *local*
+ * midnight, so two spellings of the same day land hours apart and a year-end
+ * grant can fall into the wrong reporting period. Every date-only value is
+ * therefore pinned to UTC midnight, whatever its spelling.
+ */
+const ISO_DATE_ONLY = /^(\d{4})-(\d{1,2})-(\d{1,2})$/;
+const ISO_SLASH = /^(\d{4})\/(\d{1,2})\/(\d{1,2})$/;
+const US_SLASH = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/;
+/** Presence of a clock time or an explicit zone means a real instant was meant. */
+const HAS_TIME_OR_ZONE = /[T:]|\d\s*Z$|[+-]\d{2}:?\d{2}$/;
+
+/** Build a UTC-midnight date, rejecting rollovers like 2024-02-31. */
+function utcDate(year, month, day) {
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+  const d = new Date(Date.UTC(year, month - 1, day));
+  if (d.getUTCFullYear() !== year || d.getUTCMonth() !== month - 1 || d.getUTCDate() !== day) {
+    return null;
+  }
+  return d;
+}
+
 function coerceDate(value) {
-  if (!value) return null;
+  if (value === null || value === undefined || value === '') return null;
   if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value;
-  const d = new Date(value);
-  return Number.isNaN(d.getTime()) ? null : d;
+  if (typeof value === 'number') {
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? null : d;
+  }
+
+  const s = String(value).trim();
+  if (s === '') return null;
+
+  let m;
+  if ((m = ISO_DATE_ONLY.exec(s))) return utcDate(+m[1], +m[2], +m[3]);
+  if ((m = ISO_SLASH.exec(s))) return utcDate(+m[1], +m[2], +m[3]);
+  if ((m = US_SLASH.exec(s))) return utcDate(+m[3], +m[1], +m[2]);
+
+  const d = new Date(s);
+  if (Number.isNaN(d.getTime())) return null;
+
+  // Textual date-only forms ('Dec 31, 2024') parse as local midnight; re-pin
+  // them to the same calendar day in UTC. Values carrying a time or zone are
+  // genuine instants and are left alone.
+  if (!HAS_TIME_OR_ZONE.test(s)) {
+    return new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  }
+  return d;
 }
 
 function coerceCodes(value) {
@@ -96,9 +140,12 @@ export function deriveDurationMonths(record) {
     return record.duration_months;
   }
   if (!record.start_date || !record.end_date) return null;
+  // UTC getters, to match the UTC-midnight normalization in coerceDate. Local
+  // getters would shift both endpoints in negative-offset zones and silently
+  // mis-derive terms that begin or end on the first of a month.
   const months =
-    (record.end_date.getFullYear() - record.start_date.getFullYear()) * 12 +
-    (record.end_date.getMonth() - record.start_date.getMonth());
+    (record.end_date.getUTCFullYear() - record.start_date.getUTCFullYear()) * 12 +
+    (record.end_date.getUTCMonth() - record.start_date.getUTCMonth());
   return months >= 0 ? months : null;
 }
 
