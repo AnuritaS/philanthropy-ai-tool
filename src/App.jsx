@@ -13,10 +13,7 @@ import DropZone from './ui/upload/DropZone.jsx';
 import ColumnMapper from './ui/upload/ColumnMapper.jsx';
 import ValidationReport from './ui/upload/ValidationReport.jsx';
 import StrategyDeclaration from './ui/strategy/StrategyDeclaration.jsx';
-import PortfolioOverview from './ui/dashboard/PortfolioOverview.jsx';
-import AlignmentPanel from './ui/dashboard/AlignmentPanel.jsx';
-import PracticePanel from './ui/dashboard/PracticePanel.jsx';
-import FindingsPanel from './ui/dashboard/FindingsPanel.jsx';
+import Dashboard from './ui/dashboard/Dashboard.jsx';
 
 import pcsCodedSample from '../sample_data/pcs-coded-sample.csv?raw';
 import uncodedSample from '../sample_data/uncoded-sample.csv?raw';
@@ -199,18 +196,15 @@ export default function App() {
         />
       )}
 
-      {step === 3 && profile && (
-        <>
-          <PortfolioOverview
-            profile={profile}
-            sourceName={source.name}
-            onExport={exportProfile}
-            onReset={reset}
-          />
-          <AlignmentPanel alignment={profile.alignment} />
-          <PracticePanel practice={profile.practice} peers={null} />
-          <FindingsPanel findings={findings} />
-        </>
+      {step === 3 && profile && normalized && (
+        <Dashboard
+          profile={profile}
+          grants={normalized.grants}
+          findings={findings}
+          sourceName={source.name}
+          onExport={exportProfile}
+          onReset={reset}
+        />
       )}
 
       <footer style={{ marginTop: '2rem', paddingTop: '1rem', borderTop: '0.5px solid var(--hairline)', fontSize: 12.5, color: 'var(--text-muted)', lineHeight: 1.7 }}>
