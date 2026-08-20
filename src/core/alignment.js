@@ -28,9 +28,34 @@ export function descendsFrom(code, ancestor) {
   return c === a || c.startsWith(a);
 }
 
-export function matchesAnyPriority(codes, priorities) {
-  if (!Array.isArray(codes)) return false;
-  return codes.some((code) => priorities.some((p) => descendsFrom(code, p)));
+/**
+ * Exact, case-insensitive match — the comparator for flat vocabularies.
+ *
+ * Prefix ancestry is only sound where codes are fixed-width by level, which is
+ * true of PCS and false of everything else. State codes are the live example:
+ * under a prefix test a stated priority of 'CA' silently credits 'CANADA', and
+ * 'N' credits every state beginning with N.
+ */
+export function exactMatch(code, priority) {
+  if (!code || !priority) return false;
+  return String(code).toUpperCase() === String(priority).toUpperCase();
+}
+
+/**
+ * Alignment reads both multi-valued PCS fields and single-valued scalar fields
+ * such as geo_state. Treating a bare string as "no codes" made every geography
+ * grant invisible to scoring, which produced a confident zero rather than a
+ * suppression — the one outcome the coverage gate exists to prevent.
+ */
+function toCodeList(value) {
+  if (Array.isArray(value)) return value;
+  if (value === null || value === undefined || value === '') return [];
+  return [value];
+}
+
+export function matchesAnyPriority(codes, priorities, { matches = descendsFrom } = {}) {
+  const list = toCodeList(codes);
+  return list.some((code) => priorities.some((p) => matches(code, p)));
 }
 
 /**
@@ -39,19 +64,19 @@ export function matchesAnyPriority(codes, priorities) {
  * Fractional attribution applies — a grant coded to two subjects, one of which
  * is a priority, contributes half its dollars as aligned.
  */
-export function priorityCoverage(grants, field, priorities) {
+export function priorityCoverage(grants, field, priorities, { matches = descendsFrom } = {}) {
   let aligned = 0;
   let classified = 0;
 
   for (const g of grants) {
-    const codes = g[field];
-    if (!Array.isArray(codes) || codes.length === 0) continue;
+    const codes = toCodeList(g[field]);
+    if (codes.length === 0) continue;
     const amount = g.amount ?? 0;
     if (amount <= 0) continue;
     classified += amount;
     const share = amount / codes.length;
     for (const code of codes) {
-      if (priorities.some((p) => descendsFrom(code, p))) aligned += share;
+      if (priorities.some((p) => matches(code, p))) aligned += share;
     }
   }
 
@@ -88,19 +113,19 @@ function normalizeWeights(weights) {
  * Dollars outside the priority set are excluded here; they are already
  * penalized through the coverage term.
  */
-export function actualPriorityShares(grants, field, priorities) {
+export function actualPriorityShares(grants, field, priorities, { matches = descendsFrom } = {}) {
   const buckets = new Map(priorities.map((p) => [p, 0]));
   let insideTotal = 0;
 
   for (const g of grants) {
-    const codes = g[field];
-    if (!Array.isArray(codes) || codes.length === 0) continue;
+    const codes = toCodeList(g[field]);
+    if (codes.length === 0) continue;
     const amount = g.amount ?? 0;
     if (amount <= 0) continue;
     const share = amount / codes.length;
     for (const code of codes) {
       for (const p of priorities) {
-        if (descendsFrom(code, p)) {
+        if (matches(code, p)) {
           buckets.set(p, buckets.get(p) + share);
           insideTotal += share;
           break;
@@ -128,6 +153,8 @@ export function actualPriorityShares(grants, field, priorities) {
  * @param {object[]} grants
  * @param {string} field - canonical field name, e.g. 'pcs_subject'
  * @param {object} stated - { priorities: string[], weights?: Record<code, number> }
+ * @param {object} options - { threshold?, matches? }. `matches` defaults to PCS
+ *   prefix ancestry; pass `exactMatch` for flat vocabularies.
  */
 export function alignmentScore(grants, field, stated, options = {}) {
   const priorities = stated?.priorities ?? [];
@@ -139,17 +166,19 @@ export function alignmentScore(grants, field, stated, options = {}) {
     };
   }
 
+  const matches = options.matches ?? descendsFrom;
+
   return gated(
     grants,
     [field],
     () => {
-      const { aligned, classified, coverage } = priorityCoverage(grants, field, priorities);
+      const { aligned, classified, coverage } = priorityCoverage(grants, field, priorities, { matches });
 
       let distance = null;
       let concentrationPenalty = 1;
       if (stated.weights) {
         const targets = normalizeWeights(new Map(Object.entries(stated.weights)));
-        const actual = actualPriorityShares(grants, field, priorities);
+        const actual = actualPriorityShares(grants, field, priorities, { matches });
         distance = totalVariationDistance(actual, targets);
         concentrationPenalty = 1 - distance;
       }
@@ -178,14 +207,15 @@ export function compositeAlignment(grants, strategy = {}, options = {}) {
   const dimensions = {
     subject: { field: 'pcs_subject', stated: strategy.subject },
     population: { field: 'pcs_population', stated: strategy.population },
-    geography: { field: 'geo_state', stated: strategy.geography },
+    // geo_state is a flat two-letter vocabulary, not a PCS hierarchy.
+    geography: { field: 'geo_state', stated: strategy.geography, matches: exactMatch },
   };
 
   const results = {};
   const scored = [];
 
-  for (const [name, { field, stated }] of Object.entries(dimensions)) {
-    const result = alignmentScore(grants, field, stated, options);
+  for (const [name, { field, stated, matches }] of Object.entries(dimensions)) {
+    const result = alignmentScore(grants, field, stated, matches ? { ...options, matches } : options);
     results[name] = result;
     if (!result.suppressed && result.value) scored.push(result.value.score);
   }
